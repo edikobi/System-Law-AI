@@ -1,0 +1,596 @@
+{
+  "question": "Купил бытовую технику в крупном магазине, несколько месяцев всё работало нормально, а потом она начала глючить и в итоге совсем сломалась. В сервисном центре отказались делать бесплатный ремонт, сказали, что это якобы моя вина и я неправильно пользовался, и предлагают только платный ремонт. Как в такой ситуации правильно защитить свои права потребителя: могу ли я требовать возврата денег или замены товара, на какие именно законы и статьи ссылаться, как грамотно составить претензию продавцу и в какие сроки ещё имею право что‑то требовать от магазина?",
+  "category": "consumer",
+  "total_chapters_analyzed": 28,
+  "chapters_processed": [
+    {
+      "chapter_title": "Глава II. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ПРОДАЖЕ",
+      "law": "zpp.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава II. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ПРОДАЖЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Полный текст документа",
+      "law": "Plenum on Consumer (general).docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Полный текст документа",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ",
+      "law": "zpp.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава III. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ВЫПОЛНЕНИИ",
+      "law": "zpp.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава III. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ВЫПОЛНЕНИИ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IV. ГОСУДАРСТВЕННАЯ И ОБЩЕСТВЕННАЯ ЗАЩИТА",
+      "law": "zpp.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IV. ГОСУДАРСТВЕННАЯ И ОБЩЕСТВЕННАЯ ЗАЩИТА",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ",
+      "law": "zpp.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава II. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ПРОДАЖЕ",
+      "law": "zpp.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава II. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ПРОДАЖЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава III. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ВЫПОЛНЕНИИ",
+      "law": "zpp.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава III. ЗАЩИТА ПРАВ ПОТРЕБИТЕЛЕЙ ПРИ ВЫПОЛНЕНИИ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IV. ГОСУДАРСТВЕННАЯ И ОБЩЕСТВЕННАЯ ЗАЩИТА",
+      "law": "zpp.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IV. ГОСУДАРСТВЕННАЯ И ОБЩЕСТВЕННАЯ ЗАЩИТА",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 1. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 1. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 3. ГРАЖДАНЕ (ФИЗИЧЕСКИЕ ЛИЦА)",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 3. ГРАЖДАНЕ (ФИЗИЧЕСКИЕ ЛИЦА)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 1. Основные положения",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 1. Основные положения",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 2. Коммерческие корпоративные организации ... § 6. Некоммерческие корпоративные организации",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 2. Коммерческие корпоративные организации ... § 6. Некоммерческие корпоративные организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 7. Некоммерческие унитарные организации",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 7. Некоммерческие унитарные организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 5. УЧАСТИЕ РОССИЙСКОЙ ФЕДЕРАЦИИ, СУБЪЕКТОВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 5. УЧАСТИЕ РОССИЙСКОЙ ФЕДЕРАЦИИ, СУБЪЕКТОВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 3. ОБЪЕКТЫ ГРАЖДАНСКИХ ПРАВ ... Подраздел 5. СРОКИ. ИСКОВАЯ ДАВНОСТЬ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 3. ОБЪЕКТЫ ГРАЖДАНСКИХ ПРАВ ... Подраздел 5. СРОКИ. ИСКОВАЯ ДАВНОСТЬ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел II. ПРАВО СОБСТВЕННОСТИ И ДРУГИЕ ВЕЩНЫЕ ПРАВА",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел II. ПРАВО СОБСТВЕННОСТИ И ДРУГИЕ ВЕЩНЫЕ ПРАВА",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 21. ПОНЯТИЕ ОБЯЗАТЕЛЬСТВА ... Глава 22. ИСПОЛНЕНИЕ ОБЯЗАТЕЛЬСТВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 21. ПОНЯТИЕ ОБЯЗАТЕЛЬСТВА ... Глава 22. ИСПОЛНЕНИЕ ОБЯЗАТЕЛЬСТВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 23. ОБЕСПЕЧЕНИЕ ИСПОЛНЕНИЯ ОБЯЗАТЕЛЬСТВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 23. ОБЕСПЕЧЕНИЕ ИСПОЛНЕНИЯ ОБЯЗАТЕЛЬСТВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 24. ПЕРЕМЕНА ЛИЦ В ОБЯЗАТЕЛЬСТВЕ ... Глава 26. ПРЕКРАЩЕНИЕ ОБЯЗАТЕЛЬСТВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 24. ПЕРЕМЕНА ЛИЦ В ОБЯЗАТЕЛЬСТВЕ ... Глава 26. ПРЕКРАЩЕНИЕ ОБЯЗАТЕЛЬСТВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 2. ОБЩИЕ ПОЛОЖЕНИЯ О ДОГОВОРЕ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 2. ОБЩИЕ ПОЛОЖЕНИЯ О ДОГОВОРЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 30. Купля-продажа ... Глава 32. Дарение",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 30. Купля-продажа ... Глава 32. Дарение",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 33. Рента и пожизненное содержание с иждивением ... Глава 36. Безвозмездное пользование",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 33. Рента и пожизненное содержание с иждивением ... Глава 36. Безвозмездное пользование",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 37. Подряд ... Глава 44. Банковский вклад",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 37. Подряд ... Глава 44. Банковский вклад",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 45. Банковский счет ... Глава 47.1. УСЛОВНОЕ ДЕПОНИРОВАНИЕ (ЭСКРОУ)",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 45. Банковский счет ... Глава 47.1. УСЛОВНОЕ ДЕПОНИРОВАНИЕ (ЭСКРОУ)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 48. Страхование ... Глава 58. Проведение игр и пари",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 48. Страхование ... Глава 58. Проведение игр и пари",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 59. Обязательства вследствие причинения вреда ... Глава 60. Обязательства вследствие неосновательного",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 59. Обязательства вследствие причинения вреда ... Глава 60. Обязательства вследствие неосновательного",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Полный текст документа",
+      "law": "Plenum on Consumer (general).docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Полный текст документа",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    }
+  ],
+  "articles_found": [],
+  "search_sequence": [],
+  "start_time": 1765589245.2188008,
+  "end_time": 1765589253.8429203,
+  "sufficiency_assessment": "Статьи не найдены. Запускаем расширенный поиск.",
+  "expansion_triggered": true,
+  "articles_file": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\search_results\\articles_1765589245.json",
+  "log_file": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\search_results\\search_log_1765589245.json",
+  "laws_searched": [
+    "zpp.docx",
+    "gk_rf_1.docx",
+    "gk_rf_2.docx",
+    "Plenum on Consumer (general).docx"
+  ],
+  "rag2_validation": {
+    "total_articles_received": 0,
+    "articles_validated": 0,
+    "articles_corrected": 0,
+    "articles_rejected": 0,
+    "validation_details": [],
+    "final_articles": [],
+    "validation_log": [
+      {
+        "timestamp": 1765589245.2048016,
+        "action": "start_validation",
+        "articles_count": 0,
+        "question": "У меня накопилось примерно 600 тысяч рублей долгов по разным кредитам и микрозаймам, уже не получается нормально платить, банки постоянно звонят, приставы грозят арестами и удержаниями из зарплаты. Можно ли в такой ситуации вообще официально оформить банкротство, с чего начинать, какие документы нужно собирать, какие есть ограничения и как дальше в целом проходит эта процедура до полного списания долгов?"
+      },
+      {
+        "timestamp": 1765589245.205802,
+        "action": "end_validation",
+        "results": {
+          "validated": 0,
+          "corrected": 0,
+          "rejected": 0
+        }
+      },
+      {
+        "timestamp": 1765589253.836921,
+        "action": "start_validation",
+        "articles_count": 0,
+        "question": "Купил бытовую технику в крупном магазине, несколько месяцев всё работало нормально, а потом она начала глючить и в итоге совсем сломалась. В сервисном центре отказались делать бесплатный ремонт, сказали, что это якобы моя вина и я неправильно пользовался, и предлагают только платный ремонт. Как в такой ситуации правильно защитить свои права потребителя: могу ли я требовать возврата денег или замены товара, на какие именно законы и статьи ссылаться, как грамотно составить претензию продавцу и в какие сроки ещё имею право что‑то требовать от магазина?"
+      },
+      {
+        "timestamp": 1765589253.8379166,
+        "action": "end_validation",
+        "results": {
+          "validated": 0,
+          "corrected": 0,
+          "rejected": 0
+        }
+      }
+    ]
+  },
+  "answer_generation": {
+    "status": "error",
+    "answer": "Не удалось сгенерировать ответ. Ошибка: Не удалось прочитать или распарсить файл со статьями",
+    "articles_used": 0,
+    "generation_log": {
+      "question": "Купил бытовую технику в крупном магазине, несколько месяцев всё работало нормально, а потом она начала глючить и в итоге совсем сломалась. В сервисном центре отказались делать бесплатный ремонт, сказали, что это якобы моя вина и я неправильно пользовался, и предлагают только платный ремонт. Как в такой ситуации правильно защитить свои права потребителя: могу ли я требовать возврата денег или замены товара, на какие именно законы и статьи ссылаться, как грамотно составить претензию продавцу и в какие сроки ещё имею право что‑то требовать от магазина?",
+      "category": "consumer",
+      "articles_file": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\search_results\\articles_1765589245.json",
+      "articles_processed": 0,
+      "articles_accepted": 0,
+      "articles_rejected": 0,
+      "rejection_reasons": [],
+      "reasoning_steps": [
+        {
+          "timestamp": 1765589253.8429203,
+          "level": "info",
+          "message": "Успешно загружено 0 статей из JSON"
+        }
+      ],
+      "generation_time": 0,
+      "final_answer_quality": ""
+    },
+    "reasoning": "Ошибка в процессе генерации: Не удалось прочитать или распарсить файл со статьями"
+  },
+  "resource_stats": {
+    "wall_time_sec": 8.62,
+    "cpu_time_sec": 51.58,
+    "avg_cpu_cores": 5.98,
+    "avg_cpu_percent": 49.8,
+    "memory_mb": 724.5
+  }
+}

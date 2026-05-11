@@ -1,0 +1,1103 @@
+{
+  "question": "У меня накопилось примерно 600 тысяч рублей долгов по разным кредитам и микрозаймам, уже не получается нормально платить, банки постоянно звонят, приставы грозят арестами и удержаниями из зарплаты. Можно ли в такой ситуации вообще официально оформить банкротство, с чего начинать, какие документы нужно собирать, какие есть ограничения и как дальше в целом проходит эта процедура до полного списания долгов?",
+  "category": "bankruptcy",
+  "total_chapters_analyzed": 57,
+  "chapters_processed": [
+    {
+      "chapter_title": "Глава II. ПРЕДУПРЕЖДЕНИЕ БАНКРОТСТВА",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава II. ПРЕДУПРЕЖДЕНИЕ БАНКРОТСТВА",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава XI. УПРОЩЕННЫЕ ПРОЦЕДУРЫ,",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава XI. УПРОЩЕННЫЕ ПРОЦЕДУРЫ,",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава XII. ЗАКЛЮЧИТЕЛЬНЫЕ И ПЕРЕХОДНЫЕ ПОЛОЖЕНИЯ",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава XII. ЗАКЛЮЧИТЕЛЬНЫЕ И ПЕРЕХОДНЫЕ ПОЛОЖЕНИЯ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава III.2. ОТВЕТСТВЕННОСТЬ РУКОВОДИТЕЛЯ ДОЛЖНИКА И ИНЫХ",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава III.2. ОТВЕТСТВЕННОСТЬ РУКОВОДИТЕЛЯ ДОЛЖНИКА И ИНЫХ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IV. НАБЛЮДЕНИЕ",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IV. НАБЛЮДЕНИЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава III.1. ОСПАРИВАНИЕ СДЕЛОК ДОЛЖНИКА",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава III.1. ОСПАРИВАНИЕ СДЕЛОК ДОЛЖНИКА",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава VIII. МИРОВОЕ СОГЛАШЕНИЕ",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава VIII. МИРОВОЕ СОГЛАШЕНИЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Полный текст документа",
+      "law": "Plenum bankruptcy subsidiary.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Полный текст документа",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава X.1. ОСОБЕННОСТИ УЧАСТИЯ КРЕДИТОРОВ",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава X.1. ОСОБЕННОСТИ УЧАСТИЯ КРЕДИТОРОВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава V. ФИНАНСОВОЕ ОЗДОРОВЛЕНИЕ",
+      "law": "bankrotstvo.docx",
+      "phase": "initial",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава V. ФИНАНСОВОЕ ОЗДОРОВЛЕНИЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ > Статья 1. Отношения, регулируемые настоящим Федеральным законом ... Статья 20.2. Требования к арбитражному управляющему в целях утверждения его в деле о банкротстве",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ > Статья 1. Отношения, регулируемые настоящим Федеральным законом ... Статья 20.2. Требования к арбитражному управляющему в целях утверждения его в деле о банкротстве",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ > Статья 20.3. Права и обязанности арбитражного управляющего в деле о банкротстве ... Статья 26. Утратила силу. - Федеральный закон от 30.12.2008 N 296-ФЗ.",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ > Статья 20.3. Права и обязанности арбитражного управляющего в деле о банкротстве ... Статья 26. Утратила силу. - Федеральный закон от 30.12.2008 N 296-ФЗ.",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ > Статья 26.1. Объединения саморегулируемых организаций арбитражных управляющих. Национальное объединение саморегулируемых организаций арбитражных управляющих ... Статья 29. Компетенция органов исполнительной власти и органов местного самоуправления по решению вопросов финансового оздоровления и банкротства",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава I. ОБЩИЕ ПОЛОЖЕНИЯ > Статья 26.1. Объединения саморегулируемых организаций арбитражных управляющих. Национальное объединение саморегулируемых организаций арбитражных управляющих ... Статья 29. Компетенция органов исполнительной власти и органов местного самоуправления по решению вопросов финансового оздоровления и банкротства",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава III. РАЗБИРАТЕЛЬСТВО ДЕЛ О БАНКРОТСТВЕ",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава III. РАЗБИРАТЕЛЬСТВО ДЕЛ О БАНКРОТСТВЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава VI. ВНЕШНЕЕ УПРАВЛЕНИЕ > Статья 93. Порядок введения внешнего управления ... Статья 112.1. Погашение учредителями (участниками) должника, собственником имущества должника - унитарного предприятия и (или) третьим лицом задолженности по обязательным платежам в ходе внешнего управления",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава VI. ВНЕШНЕЕ УПРАВЛЕНИЕ > Статья 93. Порядок введения внешнего управления ... Статья 112.1. Погашение учредителями (участниками) должника, собственником имущества должника - унитарного предприятия и (или) третьим лицом задолженности по обязательным платежам в ходе внешнего управления",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава VI. ВНЕШНЕЕ УПРАВЛЕНИЕ > Статья 113. Исполнение обязательств должника учредителями (участниками) должника, собственником имущества должника - унитарного предприятия либо третьим лицом или третьими лицами ... Статья 123. Порядок прекращения полномочий внешнего управляющего",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава VI. ВНЕШНЕЕ УПРАВЛЕНИЕ > Статья 113. Исполнение обязательств должника учредителями (участниками) должника, собственником имущества должника - унитарного предприятия либо третьим лицом или третьими лицами ... Статья 123. Порядок прекращения полномочий внешнего управляющего",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава VII. КОНКУРСНОЕ ПРОИЗВОДСТВО > Статья 124. Общие положения о конкурсном производстве ... Статья 147. Отчет конкурсного управляющего о результатах проведения конкурсного производства",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава VII. КОНКУРСНОЕ ПРОИЗВОДСТВО > Статья 124. Общие положения о конкурсном производстве ... Статья 147. Отчет конкурсного управляющего о результатах проведения конкурсного производства",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава VII. КОНКУРСНОЕ ПРОИЗВОДСТВО > Статья 148. Имущество должника, не проданное в ходе конкурсного производства или оставшееся после завершения расчетов с кредиторами ... Статья 149. Завершение конкурсного производства",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава VII. КОНКУРСНОЕ ПРОИЗВОДСТВО > Статья 148. Имущество должника, не проданное в ходе конкурсного производства или оставшееся после завершения расчетов с кредиторами ... Статья 149. Завершение конкурсного производства",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ (Введение)",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ (Введение)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 1. Общие положения ... § 3. Банкротство сельскохозяйственных организаций",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 1. Общие положения ... § 3. Банкротство сельскохозяйственных организаций",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 180. Общие положения о несостоятельности (банкротстве) финансовых организаций ... Статья 184.1. Дополнительные основания для применения мер по предупреждению банкротства страховой организации",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 180. Общие положения о несостоятельности (банкротстве) финансовых организаций ... Статья 184.1. Дополнительные основания для применения мер по предупреждению банкротства страховой организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 184.1-1. Анализ финансового состояния страховой организации ... Статья 185.3. Реестр клиентов профессионального участника рынка ценных бумаг, управляющей компании, клиринговой организации",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 184.1-1. Анализ финансового состояния страховой организации ... Статья 185.3. Реестр клиентов профессионального участника рынка ценных бумаг, управляющей компании, клиринговой организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 185.4. Введение наблюдения в отношении профессионального участника рынка ценных бумаг, управляющей компании, клиринговой организации ... Статья 187.2. Дополнительные основания для применения мер по предупреждению банкротства негосударственного пенсионного фонда, осуществляющего деятельность по обязательному пенсионному страхованию",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 185.4. Введение наблюдения в отношении профессионального участника рынка ценных бумаг, управляющей компании, клиринговой организации ... Статья 187.2. Дополнительные основания для применения мер по предупреждению банкротства негосударственного пенсионного фонда, осуществляющего деятельность по обязательному пенсионному страхованию",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 187.3. Особенности назначения и деятельности временной администрации негосударственного пенсионного фонда, осуществляющего деятельность по обязательному пенсионному страхованию ... Статья 189.6-1. Особенности удовлетворения требований кредиторов микрофинансовой компании",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4. Банкротство финансовых организаций > Статья 187.3. Особенности назначения и деятельности временной администрации негосударственного пенсионного фонда, осуществляющего деятельность по обязательному пенсионному страхованию ... Статья 189.6-1. Особенности удовлетворения требований кредиторов микрофинансовой компании",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций (Введение)",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций (Введение)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.7. Правовое регулирование банкротства кредитных организаций ... Статья 189.42-1. Контроль за деятельностью временной администрации по управлению кредитной организацией, назначенной в связи с отзывом у кредитной организации лицензии на осуществление банковских операций",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.7. Правовое регулирование банкротства кредитных организаций ... Статья 189.42-1. Контроль за деятельностью временной администрации по управлению кредитной организацией, назначенной в связи с отзывом у кредитной организации лицензии на осуществление банковских операций",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.43. Прекращение деятельности временной администрации по управлению кредитной организацией ... Статья 189.70. Основания для прекращения производства по делу о банкротстве",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.43. Прекращение деятельности временной администрации по управлению кредитной организацией ... Статья 189.70. Основания для прекращения производства по делу о банкротстве",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.71. Порядок обжалования решений и определений арбитражного суда ... Статья 189.95. Особенности удовлетворения требований кредиторов по субординированным кредитам",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.71. Порядок обжалования решений и определений арбитражного суда ... Статья 189.95. Особенности удовлетворения требований кредиторов по субординированным кредитам",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.96. Расчеты с кредиторами в ходе конкурсного производства ... Статья 189.105. Банкротство отсутствующей кредитной организации",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 4.1. Банкротство кредитных организаций > Статья 189.96. Расчеты с кредиторами в ходе конкурсного производства ... Статья 189.105. Банкротство отсутствующей кредитной организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 5. Банкротство стратегических предприятий ... § 6. Банкротство субъектов естественных монополий",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 5. Банкротство стратегических предприятий ... § 6. Банкротство субъектов естественных монополий",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 7. Банкротство застройщиков (Введение)",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 7. Банкротство застройщиков (Введение)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 7. Банкротство застройщиков > Статья 201.1. Общие положения ... Статья 201.11. Погашение требований участников строительства путем передачи им жилых помещений, машино-мест и нежилых помещений",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 7. Банкротство застройщиков > Статья 201.1. Общие положения ... Статья 201.11. Погашение требований участников строительства путем передачи им жилых помещений, машино-мест и нежилых помещений",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 7. Банкротство застройщиков > Статья 201.12. Собрание участников строительства ... Статья 201.15-4. Особенности банкротства жилищно-строительных кооперативов",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 7. Банкротство застройщиков > Статья 201.12. Собрание участников строительства ... Статья 201.15-4. Особенности банкротства жилищно-строительных кооперативов",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 8. Особенности банкротства участника клиринга и клиента",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава IX. ОСОБЕННОСТИ БАНКРОТСТВА ОТДЕЛЬНЫХ > § 8. Особенности банкротства участника клиринга и клиента",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1. Общие положения (СТАТЬИ 202 - 213)",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1. Общие положения (СТАТЬИ 202 - 213)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1.1. Реструктуризация долгов гражданина и реализация (Введение)",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1.1. Реструктуризация долгов гражданина и реализация (Введение)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1.1. Реструктуризация долгов гражданина и реализация > Статья 213.1. Регулирование отношений, связанных с банкротством граждан ... Статья 213.25. Имущество гражданина, подлежащее реализации в случае признания гражданина банкротом и введения реализации имущества гражданина",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1.1. Реструктуризация долгов гражданина и реализация > Статья 213.1. Регулирование отношений, связанных с банкротством граждан ... Статья 213.25. Имущество гражданина, подлежащее реализации в случае признания гражданина банкротом и введения реализации имущества гражданина",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1.1. Реструктуризация долгов гражданина и реализация > Статья 213.26. Особенности реализации имущества гражданина ... Статья 213.32. Особенности оспаривания сделки должника-гражданина",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 1.1. Реструктуризация долгов гражданина и реализация > Статья 213.26. Особенности реализации имущества гражданина ... Статья 213.32. Особенности оспаривания сделки должника-гражданина",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 2. Особенности банкротства ... § 5. Внесудебное банкротство гражданина",
+      "law": "bankrotstvo.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Глава X. БАНКРОТСТВО ГРАЖДАНИНА > § 2. Особенности банкротства ... § 5. Внесудебное банкротство гражданина",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 1. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 1. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 3. ГРАЖДАНЕ (ФИЗИЧЕСКИЕ ЛИЦА)",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 3. ГРАЖДАНЕ (ФИЗИЧЕСКИЕ ЛИЦА)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 1. Основные положения",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 1. Основные положения",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 2. Коммерческие корпоративные организации ... § 6. Некоммерческие корпоративные организации",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 2. Коммерческие корпоративные организации ... § 6. Некоммерческие корпоративные организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 7. Некоммерческие унитарные организации",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 4. ЮРИДИЧЕСКИЕ ЛИЦА > § 7. Некоммерческие унитарные организации",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 5. УЧАСТИЕ РОССИЙСКОЙ ФЕДЕРАЦИИ, СУБЪЕКТОВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 2. ЛИЦА > Глава 5. УЧАСТИЕ РОССИЙСКОЙ ФЕДЕРАЦИИ, СУБЪЕКТОВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 3. ОБЪЕКТЫ ГРАЖДАНСКИХ ПРАВ ... Подраздел 5. СРОКИ. ИСКОВАЯ ДАВНОСТЬ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел I. ОБЩИЕ ПОЛОЖЕНИЯ > Подраздел 3. ОБЪЕКТЫ ГРАЖДАНСКИХ ПРАВ ... Подраздел 5. СРОКИ. ИСКОВАЯ ДАВНОСТЬ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел II. ПРАВО СОБСТВЕННОСТИ И ДРУГИЕ ВЕЩНЫЕ ПРАВА",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел II. ПРАВО СОБСТВЕННОСТИ И ДРУГИЕ ВЕЩНЫЕ ПРАВА",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 21. ПОНЯТИЕ ОБЯЗАТЕЛЬСТВА ... Глава 22. ИСПОЛНЕНИЕ ОБЯЗАТЕЛЬСТВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 21. ПОНЯТИЕ ОБЯЗАТЕЛЬСТВА ... Глава 22. ИСПОЛНЕНИЕ ОБЯЗАТЕЛЬСТВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 23. ОБЕСПЕЧЕНИЕ ИСПОЛНЕНИЯ ОБЯЗАТЕЛЬСТВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 23. ОБЕСПЕЧЕНИЕ ИСПОЛНЕНИЯ ОБЯЗАТЕЛЬСТВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 24. ПЕРЕМЕНА ЛИЦ В ОБЯЗАТЕЛЬСТВЕ ... Глава 26. ПРЕКРАЩЕНИЕ ОБЯЗАТЕЛЬСТВ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 1. ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОБЯЗАТЕЛЬСТВАХ > Глава 24. ПЕРЕМЕНА ЛИЦ В ОБЯЗАТЕЛЬСТВЕ ... Глава 26. ПРЕКРАЩЕНИЕ ОБЯЗАТЕЛЬСТВ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 2. ОБЩИЕ ПОЛОЖЕНИЯ О ДОГОВОРЕ",
+      "law": "gk_rf_1.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел III. ОБЩАЯ ЧАСТЬ ОБЯЗАТЕЛЬСТВЕННОГО ПРАВА > Подраздел 2. ОБЩИЕ ПОЛОЖЕНИЯ О ДОГОВОРЕ",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 30. Купля-продажа ... Глава 32. Дарение",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 30. Купля-продажа ... Глава 32. Дарение",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 33. Рента и пожизненное содержание с иждивением ... Глава 36. Безвозмездное пользование",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 33. Рента и пожизненное содержание с иждивением ... Глава 36. Безвозмездное пользование",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 37. Подряд ... Глава 44. Банковский вклад",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 37. Подряд ... Глава 44. Банковский вклад",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 45. Банковский счет ... Глава 47.1. УСЛОВНОЕ ДЕПОНИРОВАНИЕ (ЭСКРОУ)",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 45. Банковский счет ... Глава 47.1. УСЛОВНОЕ ДЕПОНИРОВАНИЕ (ЭСКРОУ)",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 48. Страхование ... Глава 58. Проведение игр и пари",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 48. Страхование ... Глава 58. Проведение игр и пари",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    },
+    {
+      "chapter_title": "Раздел IV. Отдельные виды обязательств > Глава 59. Обязательства вследствие причинения вреда ... Глава 60. Обязательства вследствие неосновательного",
+      "law": "gk_rf_2.docx",
+      "phase": "expanded",
+      "articles_found": [],
+      "analysis_quality": "single_chunk",
+      "chunk_analysis": [
+        {
+          "chunk_title": "Раздел IV. Отдельные виды обязательств > Глава 59. Обязательства вследствие причинения вреда ... Глава 60. Обязательства вследствие неосновательного",
+          "articles_found": [],
+          "analysis_quality": "error",
+          "chunk_index": 0,
+          "total_chunks": 1
+        }
+      ],
+      "total_chunks": 1,
+      "chunks_processed": 0
+    }
+  ],
+  "articles_found": [],
+  "search_sequence": [],
+  "start_time": 1765589226.329841,
+  "end_time": 1765589245.2099771,
+  "sufficiency_assessment": "Статьи не найдены. Запускаем расширенный поиск.",
+  "expansion_triggered": true,
+  "articles_file": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\search_results\\articles_1765589226.json",
+  "log_file": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\search_results\\search_log_1765589226.json",
+  "laws_searched": [
+    "bankrotstvo.docx",
+    "gk_rf_1.docx",
+    "gk_rf_2.docx",
+    "Plenum bankruptcy subsidiary.docx"
+  ],
+  "rag2_validation": {
+    "total_articles_received": 0,
+    "articles_validated": 0,
+    "articles_corrected": 0,
+    "articles_rejected": 0,
+    "validation_details": [],
+    "final_articles": [],
+    "validation_log": [
+      {
+        "timestamp": 1765589245.2048016,
+        "action": "start_validation",
+        "articles_count": 0,
+        "question": "У меня накопилось примерно 600 тысяч рублей долгов по разным кредитам и микрозаймам, уже не получается нормально платить, банки постоянно звонят, приставы грозят арестами и удержаниями из зарплаты. Можно ли в такой ситуации вообще официально оформить банкротство, с чего начинать, какие документы нужно собирать, какие есть ограничения и как дальше в целом проходит эта процедура до полного списания долгов?"
+      },
+      {
+        "timestamp": 1765589245.205802,
+        "action": "end_validation",
+        "results": {
+          "validated": 0,
+          "corrected": 0,
+          "rejected": 0
+        }
+      }
+    ]
+  },
+  "answer_generation": {
+    "status": "error",
+    "answer": "Не удалось сгенерировать ответ. Ошибка: Не удалось прочитать или распарсить файл со статьями",
+    "articles_used": 0,
+    "generation_log": {
+      "question": "У меня накопилось примерно 600 тысяч рублей долгов по разным кредитам и микрозаймам, уже не получается нормально платить, банки постоянно звонят, приставы грозят арестами и удержаниями из зарплаты. Можно ли в такой ситуации вообще официально оформить банкротство, с чего начинать, какие документы нужно собирать, какие есть ограничения и как дальше в целом проходит эта процедура до полного списания долгов?",
+      "category": "bankruptcy",
+      "articles_file": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\search_results\\articles_1765589226.json",
+      "articles_processed": 0,
+      "articles_accepted": 0,
+      "articles_rejected": 0,
+      "rejection_reasons": [],
+      "reasoning_steps": [
+        {
+          "timestamp": 1765589245.2099771,
+          "level": "info",
+          "message": "Успешно загружено 0 статей из JSON"
+        }
+      ],
+      "generation_time": 0,
+      "final_answer_quality": ""
+    },
+    "reasoning": "Ошибка в процессе генерации: Не удалось прочитать или распарсить файл со статьями"
+  },
+  "resource_stats": {
+    "wall_time_sec": 18.88,
+    "cpu_time_sec": 131.48,
+    "avg_cpu_cores": 6.96,
+    "avg_cpu_percent": 58.0,
+    "memory_mb": 677.3
+  }
+}

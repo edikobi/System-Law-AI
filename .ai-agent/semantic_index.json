@@ -1,0 +1,2720 @@
+{
+  "version": "1.2",
+  "created_at": "2025-12-13T07:46:52.963970+00:00",
+  "updated_at": "2026-02-12T19:52:32.273530+00:00",
+  "root_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия",
+  "total_files": 35,
+  "total_tokens": 119568,
+  "files": {
+    "api_manager.py": {
+      "name": "api_manager.py",
+      "path": "api_manager.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\api_manager.py",
+      "file_hash": "6f9f33d8a173bbcbcd7862d17acb4dcd",
+      "tokens_total": 2688,
+      "lines_total": 318,
+      "imports": {
+        "lines": "7-16",
+        "modules": [
+          "os",
+          "requests",
+          "base64",
+          "uuid",
+          "time",
+          "certifi",
+          "urllib3",
+          "warnings",
+          "dotenv.load_dotenv",
+          "requests.packages.urllib3.exceptions.InsecureRequestWarning"
+        ],
+        "tokens": 47
+      },
+      "globals": {
+        "lines": "318-318",
+        "names": [
+          "api_manager"
+        ],
+        "tokens": 6
+      },
+      "description": "Centralized API client for multi-provider AI services (DeepSeek, GigaChat), handling authentication, token management, and SSL configuration for search, generation, and specialized requests.",
+      "classes": [
+        {
+          "name": "APIManager",
+          "lines": "25-315",
+          "tokens": 2507,
+          "content_hash": "04ff16a00b32e796cdeafecb038a0173",
+          "analyzed_by": "qwen",
+          "description": "Управляет взаимодействием с несколькими API (DeepSeek и GigaChat), используя разделенные API-ключи для поиска, генерации и специализированных запросов, включая обработку токенов и SSL-соединений.",
+          "references": [
+            "ValueError",
+            "base64.b64encode",
+            "certifi.where",
+            "credentials.encode",
+            "os.getenv",
+            "requests.exceptions",
+            "requests.get",
+            "requests.post",
+            "response.json",
+            "response.raise_for_status",
+            "response.status_code",
+            "time.time",
+            "uuid.uuid4"
+          ],
+          "methods": [
+            "__init__",
+            "_get_gigachat_token",
+            "_test_ssl_connection",
+            "gigachat_completion",
+            "deepseek_completion",
+            "deepseek_generation"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:14.400670+00:00"
+    },
+    "check_docx_styles.py": {
+      "name": "check_docx_styles.py",
+      "path": "check_docx_styles.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\check_docx_styles.py",
+      "file_hash": "ab32e2e88987631f28c19a28c250ddbf",
+      "tokens_total": 1219,
+      "lines_total": 115,
+      "imports": {
+        "lines": "1-5",
+        "modules": [
+          "os",
+          "sys",
+          "pathlib.Path",
+          "datetime.datetime",
+          "docx"
+        ],
+        "tokens": 19
+      },
+      "globals": null,
+      "description": "Script for automated DOCX document structure analysis using python-docx, generating hierarchical outline reports from paragraph styles.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "get_outline_level",
+          "lines": "8-23",
+          "tokens": 144,
+          "content_hash": "7b6418b44dbd0fefc0d62a112fc227f1",
+          "analyzed_by": "qwen",
+          "description": "Extracts the outline level (0, 1, 2...) from a DOCX paragraph's XML structure or returns None if not found. Uses the python-docx library for document processing.",
+          "references": [
+            "outline_lvl.get",
+            "pPr.find",
+            "p_element.pPr",
+            "paragraph._p"
+          ]
+        },
+        {
+          "name": "check_and_report_structures",
+          "lines": "25-112",
+          "tokens": 1028,
+          "content_hash": "cd73421352f6de022a443fffcf1e9d35",
+          "analyzed_by": "qwen",
+          "description": "Проверяет структуру и стили .docx файлов в папке \"laws\", генерируя отчет с уровнем заголовков и структурой документа, используя библиотеку python-docx.",
+          "references": [
+            "Path",
+            "datetime.now",
+            "doc.paragraphs",
+            "docx.Document",
+            "f.name",
+            "f_out.write",
+            "file_path.name",
+            "get_outline_level",
+            "laws_dir.exists",
+            "laws_dir.glob",
+            "para.style",
+            "para.text",
+            "report_file.name",
+            "style_name.split",
+            "style_name.startswith"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:18.233553+00:00"
+    },
+    "check_structure.py": {
+      "name": "check_structure.py",
+      "path": "check_structure.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\check_structure.py",
+      "file_hash": "b745a081748ce6d55cd04633ea4b9a6b",
+      "tokens_total": 1074,
+      "lines_total": 97,
+      "imports": {
+        "lines": "2-5",
+        "modules": [
+          "os",
+          "sys",
+          "pathlib.Path",
+          "json"
+        ],
+        "tokens": 13
+      },
+      "globals": {
+        "lines": "11-11",
+        "names": [
+          "current_dir"
+        ],
+        "tokens": 8
+      },
+      "description": "Generates a .docx report on legal document structure using DocxLawParser, integrating with pathlib.Path for file and folder operations.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "generate_structure_report",
+          "lines": "24-88",
+          "tokens": 715,
+          "content_hash": "2f8bbc4714cf626f94abd93abd37038d",
+          "analyzed_by": "qwen",
+          "description": "Генерирует отчет о структуре законов в формате .docx, используя парсер DocxLawParser, и сохраняет его в указанном файле. Интеграция с pathlib.Path для работы с файлами и папками.",
+          "references": [
+            "DocxLawParser",
+            "f.write",
+            "file_path.name",
+            "laws_dir.exists",
+            "laws_dir.glob",
+            "parser.parse_docx_structure",
+            "report_lines.append",
+            "struct.get"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:11.556120+00:00"
+    },
+    "config.py": {
+      "name": "config.py",
+      "path": "config.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\config.py",
+      "file_hash": "4737f3cbcab83a0efe2d8c9dc51bd62b",
+      "tokens_total": 5783,
+      "lines_total": 304,
+      "imports": {
+        "lines": "3-6",
+        "modules": [
+          "os",
+          "dotenv.load_dotenv",
+          "typing.List",
+          "typing.Dict"
+        ],
+        "tokens": 19
+      },
+      "globals": {
+        "lines": "16-262",
+        "names": [
+          "LEGAL_CATEGORIES",
+          "DOCUMENT_TYPES",
+          "config"
+        ],
+        "tokens": 2507
+      },
+      "description": "Configuration management module for legal data paths and environment variables, with utilities for law categorization and display name mapping.",
+      "classes": [
+        {
+          "name": "Config",
+          "lines": "10-14",
+          "tokens": 32,
+          "content_hash": "e918b9f3864eef97011923e5f0a2644d",
+          "analyzed_by": "qwen",
+          "description": "Configures file paths for laws and chroma database, integrates with dotenv for environment variable loading.",
+          "references": [],
+          "methods": []
+        },
+        {
+          "name": "Config",
+          "lines": "252-260",
+          "tokens": 86,
+          "content_hash": "eebebb73038809d315952e65ae4a6be8",
+          "analyzed_by": "qwen",
+          "description": "Manages configuration settings including directory paths and global variables, integrates with dotenv for environment variable loading.",
+          "references": [],
+          "methods": []
+        }
+      ],
+      "functions": [
+        {
+          "name": "get_extended_laws_for_category",
+          "lines": "146-207",
+          "tokens": 502,
+          "content_hash": "171d6740ef31d3e098ce47e1e04df5f4",
+          "analyzed_by": "qwen",
+          "description": "Returns an extended list of laws for a given category, including sub-legal acts and Plenums, integrates with LEGAL_CATEGORIES for base laws.",
+          "references": [
+            "extended_mapping.get"
+          ]
+        },
+        {
+          "name": "get_law_display_name",
+          "lines": "264-302",
+          "tokens": 2585,
+          "content_hash": "d7a16531d63d05b94363fb5258f33a3a",
+          "analyzed_by": "qwen",
+          "description": "Returns a user-friendly name for a law based on its filename, using a predefined dictionary of mappings.",
+          "references": [
+            "LAW_DISPLAY_NAMES.get"
+          ]
+        }
+      ],
+      "last_indexed": "2026-02-11T17:18:10.227923+00:00"
+    },
+    "laws/вщ.py": {
+      "name": "вщ.py",
+      "path": "laws/вщ.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\laws\\вщ.py",
+      "file_hash": "5e9dc769d52ff198c9285aa241193cf4",
+      "tokens_total": 170,
+      "lines_total": 17,
+      "imports": {
+        "lines": "1-1",
+        "modules": [
+          "docx.Document"
+        ],
+        "tokens": 5
+      },
+      "globals": null,
+      "description": "DOCX document structure analyzer using python-docx, extracts style and text from the first 50 non-empty paragraphs for inspection.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "inspect_docx_structure",
+          "lines": "3-14",
+          "tokens": 147,
+          "content_hash": "295a6ea0ab1ece7a331ab6bc529ecd15",
+          "analyzed_by": "qwen",
+          "description": "Анализирует структуру DOCX-документа, выводя стиль и текст первых 50 непустых параграфов. Использует библиотеку python-docx для чтения файла.",
+          "references": [
+            "Document",
+            "doc.paragraphs",
+            "para.style",
+            "para.text"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:14.400670+00:00"
+    },
+    "prepare_laws.py": {
+      "name": "prepare_laws.py",
+      "path": "prepare_laws.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\prepare_laws.py",
+      "file_hash": "616874922b67954998a1a9b5c31e17f4",
+      "tokens_total": 1208,
+      "lines_total": 108,
+      "imports": {
+        "lines": "1-14",
+        "modules": [
+          "os",
+          "json",
+          "time",
+          "sys",
+          "pathlib.Path",
+          "src.core.law_navigator.EnhancedLawParser",
+          "src.core.sequential_searcher.IntelligentChunkManager",
+          "config.Config"
+        ],
+        "tokens": 45
+      },
+      "globals": {
+        "lines": "8-8",
+        "names": [
+          "PROJECT_ROOT"
+        ],
+        "tokens": 10
+      },
+      "description": "Legislative document preprocessing pipeline for structured parsing and intelligent chunking, integrating .docx and .txt parsers with encoding support for JSON serialization.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "main",
+          "lines": "16-105",
+          "tokens": 1087,
+          "content_hash": "766aa1743886df6539b0a4338f4b08dc",
+          "analyzed_by": "qwen",
+          "description": "Предварительно обрабатывает законодательные документы, разбивая их на структуры и чанки для последующего поиска, используя EnhancedLawParser и IntelligentChunkManager, и сохраняет результат в JSON-файлы. Интегрируется с DocxLawParser для обработки .docx и поддерживает кодировки при чтении .txt.",
+          "references": [
+            "EnhancedLawParser",
+            "IntelligentChunkManager",
+            "chunk_manager.prepare_chapter_analysis",
+            "f.read",
+            "final_units.extend",
+            "json.dump",
+            "law_name.endswith",
+            "law_path.name",
+            "laws_dir.glob",
+            "navigator_parser.parse_law_major_structures",
+            "processed_dir.mkdir",
+            "time.time"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:14.186666+00:00"
+    },
+    "run_indexing_and_report.py": {
+      "name": "run_indexing_and_report.py",
+      "path": "run_indexing_and_report.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\run_indexing_and_report.py",
+      "file_hash": "977216f6e9f84488a628c1f84904b9ad",
+      "tokens_total": 2238,
+      "lines_total": 168,
+      "imports": {
+        "lines": "1-6",
+        "modules": [
+          "os",
+          "sys",
+          "random",
+          "pathlib.Path",
+          "datetime.datetime",
+          "time"
+        ],
+        "tokens": 21
+      },
+      "globals": {
+        "lines": "12-12",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 8
+      },
+      "description": "Script for automated document indexing and structural report generation using ChromaDB, processing data from the 'laws' directory.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "run_indexing_and_reporting",
+          "lines": "43-164",
+          "tokens": 1638,
+          "content_hash": "59f601de3feb9b3c05f4c82ac80e75b2",
+          "analyzed_by": "qwen",
+          "description": "Запускает индексацию документов, проверяет результат и генерирует отчет структуры, используя ChromaDB и данные из папки 'laws'.",
+          "references": [
+            "SmartRAGSystem",
+            "ValueError",
+            "collection.count",
+            "collection.get",
+            "collection.query",
+            "datetime.now",
+            "f.write",
+            "metadata.get",
+            "rag_system.collection",
+            "structures_by_law.items",
+            "time.time"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:11.556120+00:00"
+    },
+    "run_structure_analysis.py": {
+      "name": "run_structure_analysis.py",
+      "path": "run_structure_analysis.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\run_structure_analysis.py",
+      "file_hash": "d9a804ac311e2f9da47ae6bcf0d7e725",
+      "tokens_total": 281,
+      "lines_total": 27,
+      "imports": {
+        "lines": "2-9",
+        "modules": [
+          "sys",
+          "pathlib.Path",
+          "src.tools.structure_analyzer.analyze_documents"
+        ],
+        "tokens": 17
+      },
+      "globals": {
+        "lines": "6-6",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 8
+      },
+      "description": "Utility module with minimal significant logic.",
+      "classes": [],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:46:55.209692+00:00"
+    },
+    "src/__init__.py": {
+      "name": "__init__.py",
+      "path": "src/__init__.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\__init__.py",
+      "file_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0,
+      "lines_total": 0,
+      "imports": null,
+      "globals": null,
+      "description": "Utility module with minimal significant logic.",
+      "classes": [],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:46:55.210692+00:00"
+    },
+    "src/classification/__init__.py": {
+      "name": "__init__.py",
+      "path": "src/classification/__init__.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\classification\\__init__.py",
+      "file_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0,
+      "lines_total": 0,
+      "imports": null,
+      "globals": null,
+      "description": "Utility module with minimal significant logic.",
+      "classes": [],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:46:55.210692+00:00"
+    },
+    "src/classification/deepseek_classifier.py": {
+      "name": "deepseek_classifier.py",
+      "path": "src/classification/deepseek_classifier.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\classification\\deepseek_classifier.py",
+      "file_hash": "af92ad9f600b439f2a352516de56d867",
+      "tokens_total": 722,
+      "lines_total": 93,
+      "imports": {
+        "lines": "6-14",
+        "modules": [
+          "sys",
+          "pathlib.Path",
+          "api_manager.api_manager",
+          "config.Config"
+        ],
+        "tokens": 19
+      },
+      "globals": {
+        "lines": "10-10",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "Legal question classifier using keyword matching and DeepSeek API, integrates with configuration management and API handlers for category determination and query execution.",
+      "classes": [
+        {
+          "name": "DeepSeekClassifier",
+          "lines": "16-93",
+          "tokens": 646,
+          "content_hash": "a65a0e32b9d1fb5c7804761aa1326e0b",
+          "analyzed_by": "qwen",
+          "description": "Классифицирует юридические вопросы с использованием ключевых слов и API DeepSeek, интегрируется с конфигурацией и api_manager для получения категорий и выполнения запросов.",
+          "references": [
+            "Config",
+            "api_manager.chat_completion",
+            "categories_list.append",
+            "category_data.get",
+            "question.lower",
+            "response.strip"
+          ],
+          "methods": [
+            "__init__",
+            "classify",
+            "_classify_with_keywords",
+            "_classify_with_deepseek"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:11.556120+00:00"
+    },
+    "src/classification/gigachat_classifier.py": {
+      "name": "gigachat_classifier.py",
+      "path": "src/classification/gigachat_classifier.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\classification\\gigachat_classifier.py",
+      "file_hash": "9518a72e67e6f5940c8d0885f59197b7",
+      "tokens_total": 1555,
+      "lines_total": 149,
+      "imports": {
+        "lines": "2-9",
+        "modules": [
+          "sys",
+          "pathlib.Path",
+          "api_manager.api_manager",
+          "config.Config"
+        ],
+        "tokens": 19
+      },
+      "globals": {
+        "lines": "5-5",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "RAG-enhanced classifier using GigaChat and DeepSeek APIs, integrating a configuration manager and API handler for structured text classification.",
+      "classes": [
+        {
+          "name": "GigaChatClassifier",
+          "lines": "11-149",
+          "tokens": 1504,
+          "content_hash": "b64e2056e31b39c4f908adb39ab346f1",
+          "analyzed_by": "qwen",
+          "description": "Классификатор через GigaChat API с RAG-ассистентом, интегрирует Config для настроек и api_manager для взаимодействия с GigaChat и DeepSeek.",
+          "references": [
+            "Config",
+            "api_manager.deepseek_completion",
+            "api_manager.gigachat_completion",
+            "cat_data.get",
+            "categories_list.append",
+            "category_data.get",
+            "question.lower",
+            "rag_items.append",
+            "response.strip",
+            "suggestions.append"
+          ],
+          "methods": [
+            "__init__",
+            "classify_with_rag_assistance",
+            "_classify_with_keywords",
+            "_get_rag_category_suggestion",
+            "_classify_with_gigachat"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2026-02-07T23:15:44.779388+00:00"
+    },
+    "src/classification/mistral_classifier.py": {
+      "name": "mistral_classifier.py",
+      "path": "src/classification/mistral_classifier.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\classification\\mistral_classifier.py",
+      "file_hash": "0cf542a65c9f5748075350a0a353eaad",
+      "tokens_total": 736,
+      "lines_total": 93,
+      "imports": {
+        "lines": "2-4",
+        "modules": [
+          "requests",
+          "json",
+          "config.Config"
+        ],
+        "tokens": 10
+      },
+      "globals": null,
+      "description": "Legal question classifier using Mistral via Hugging Face API, with keyword-based fallback and configurable settings.",
+      "classes": [
+        {
+          "name": "MistralClassifier",
+          "lines": "6-93",
+          "tokens": 715,
+          "content_hash": "5aed1604927b916091a60a90911c0ca8",
+          "analyzed_by": "qwen",
+          "description": "Классифицирует юридические вопросы с использованием модели Mistral через Hugging Face API, используя конфигурацию из config.Config и падающий метод на основе ключевых слов при сбое API.",
+          "references": [
+            "Config",
+            "category_data.get",
+            "question.lower",
+            "requests.post",
+            "response.json",
+            "response.raise_for_status",
+            "response.strip"
+          ],
+          "methods": [
+            "__init__",
+            "classify",
+            "_create_classification_prompt",
+            "_query_mistral_api",
+            "_extract_category",
+            "_classify_with_keywords"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:11.556120+00:00"
+    },
+    "src/core/__init__.py": {
+      "name": "__init__.py",
+      "path": "src/core/__init__.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\__init__.py",
+      "file_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0,
+      "lines_total": 0,
+      "imports": null,
+      "globals": null,
+      "description": "Utility module with minimal significant logic.",
+      "classes": [],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:46:55.852692+00:00"
+    },
+    "src/core/answer_generator.py": {
+      "name": "answer_generator.py",
+      "path": "src/core/answer_generator.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\answer_generator.py",
+      "file_hash": "02752840d4d08101eb9f93c6843bbb63",
+      "tokens_total": 6824,
+      "lines_total": 574,
+      "imports": {
+        "lines": "2-13",
+        "modules": [
+          "sys",
+          "os",
+          "time",
+          "json",
+          "re",
+          "psutil",
+          "asyncio",
+          "pathlib.Path",
+          "typing.List",
+          "typing.Dict",
+          "typing.Optional",
+          "api_manager.api_manager",
+          "concurrent.futures.ThreadPoolExecutor",
+          "concurrent.futures.as_completed",
+          "config.get_law_display_name"
+        ],
+        "tokens": 92
+      },
+      "globals": null,
+      "description": "Answer generation system for legal articles with anti-hallucination protection, integrating JSON hints for guidance and psutil for resource monitoring.",
+      "classes": [
+        {
+          "name": "AnswerGenerator",
+          "lines": "15-574",
+          "tokens": 6723,
+          "content_hash": "275ecb5db65033ea0c366055cb72c3ee",
+          "analyzed_by": "qwen",
+          "description": "Generates answers based on legal articles with anti-hallucination protection, integrates with JSON hints for guidance and psutil for resource monitoring.",
+          "references": [
+            "Path",
+            "ThreadPoolExecutor",
+            "answer.lower",
+            "api_manager.deepseek_generation",
+            "art.get",
+            "article.get",
+            "articles_file_path.exists",
+            "as_completed",
+            "asyncio.get_running_loop",
+            "cpu_end.system",
+            "cpu_end.user",
+            "cpu_start.system",
+            "cpu_start.user",
+            "executor.submit",
+            "filtered_articles.append",
+            "filtered_articles.sort",
+            "future.result",
+            "futures.append",
+            "get_law_display_name",
+            "json.JSONDecodeError",
+            "json.load",
+            "level.upper",
+            "loop.run_in_executor",
+            "match.group",
+            "os.getpid",
+            "proc.cpu_times",
+            "proc.memory_info",
+            "psutil.Process",
+            "psutil.cpu_count",
+            "re.IGNORECASE",
+            "re.findall",
+            "re.search",
+            "response.strip",
+            "results.append",
+            "results.sort",
+            "score_match.group",
+            "time.time",
+            "x.get"
+          ],
+          "methods": [
+            "__init__",
+            "_load_hints",
+            "generate_answer_from_articles_async",
+            "generate_answer_from_articles",
+            "_read_and_parse_articles_file",
+            "_analyze_and_filter_articles",
+            "_build_relevance_prompt",
+            "_deep_relevance_analysis",
+            "_parse_relevance_score",
+            "_generate_final_answer",
+            "_build_answer_prompt",
+            "_log_reasoning",
+            "_log_article_rejection",
+            "_assess_answer_quality",
+            "_create_error_result",
+            "_create_no_articles_result"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2026-02-07T23:15:44.554874+00:00"
+    },
+    "src/core/docx_intelligent_parser.py": {
+      "name": "docx_intelligent_parser.py",
+      "path": "src/core/docx_intelligent_parser.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\docx_intelligent_parser.py",
+      "file_hash": "903c2559ce3eadc257c387d7911e8fc3",
+      "tokens_total": 3460,
+      "lines_total": 321,
+      "imports": {
+        "lines": "1-4",
+        "modules": [
+          "docx",
+          "re",
+          "typing.List",
+          "typing.Dict",
+          "typing.Optional",
+          "typing.Any",
+          "dataclasses.dataclass",
+          "dataclasses.field"
+        ],
+        "tokens": 26
+      },
+      "globals": null,
+      "description": "Hierarchical DOCX parser that builds a structured document tree and chunks content by size and outline level, integrating with the docx library for XML-based paragraph analysis.",
+      "classes": [
+        {
+          "name": "DocumentNode",
+          "lines": "37-70",
+          "tokens": 441,
+          "content_hash": "00dd1d9ef009ca12d892fb4fcf010d5c",
+          "analyzed_by": "qwen",
+          "description": "Represents a node in a document tree structure, supporting hierarchical organization with methods to calculate full text size and retrieve flat text or breadcrumb titles, integrates with docx and re for document parsing and manipulation.",
+          "references": [
+            "child.full_text_size",
+            "child.get_flat_text",
+            "curr.level",
+            "curr.parent",
+            "curr.title",
+            "field",
+            "parts.append",
+            "parts.extend",
+            "titles.append"
+          ],
+          "methods": [
+            "full_text_size",
+            "get_flat_text",
+            "get_breadcrumb_title"
+          ]
+        },
+        {
+          "name": "DocxIntelligentParser",
+          "lines": "73-307",
+          "tokens": 2537,
+          "content_hash": "18d78ba9c4b99f2dce29095946393621",
+          "analyzed_by": "qwen",
+          "description": "Parses DOCX files into a structured tree and chunks the content based on size and hierarchy, integrates with the docx library for document parsing.",
+          "references": [
+            "DocumentNode",
+            "child.full_text_size",
+            "chunks.append",
+            "chunks.extend",
+            "chunks_list.append",
+            "content_parts.append",
+            "current.children",
+            "current_batch.append",
+            "doc.paragraphs",
+            "docx.Document",
+            "full_text.strip",
+            "get_xml_outline_level",
+            "intro_text.strip",
+            "item.get_flat_text",
+            "node.children",
+            "node.content",
+            "node.full_text_size",
+            "node.get_breadcrumb_title",
+            "node.get_flat_text",
+            "node.level",
+            "node.title",
+            "para.style",
+            "para.text",
+            "parent.children",
+            "parent.get_breadcrumb_title",
+            "root_node.children",
+            "stack.append",
+            "stack.pop"
+          ],
+          "methods": [
+            "check_structure_type",
+            "_create_flat_chunk",
+            "parse",
+            "chunk_tree",
+            "_flush_batch"
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "get_xml_outline_level",
+          "lines": "10-30",
+          "tokens": 215,
+          "content_hash": "a70d865f8f493831d9ebbf20344eba9a",
+          "analyzed_by": "qwen",
+          "description": "Extracts the outline level from a paragraph's XML in a DOCX file, integrates with the docx library to parse paragraph elements.",
+          "references": [
+            "outline_lvl.get",
+            "pPr.find",
+            "p_element.pPr",
+            "paragraph._p"
+          ]
+        }
+      ],
+      "last_indexed": "2026-02-11T17:29:37.001788+00:00"
+    },
+    "src/core/hybrid_navigator.py": {
+      "name": "hybrid_navigator.py",
+      "path": "src/core/hybrid_navigator.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\hybrid_navigator.py",
+      "file_hash": "ff2d264321977fea55735e3e62b01a7c",
+      "tokens_total": 4904,
+      "lines_total": 413,
+      "imports": {
+        "lines": "2-13",
+        "modules": [
+          "sys",
+          "pathlib.Path",
+          "typing.List",
+          "typing.Dict",
+          "time",
+          "config.Config",
+          "src.core.law_navigator.LawNavigator",
+          "src.rag.local_semantic_rag.LocalSemanticRAG",
+          "src.core.simple_law_parser.SimpleLawParser"
+        ],
+        "tokens": 60
+      },
+      "globals": {
+        "lines": "7-7",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "Hybrid legal document retrieval system combining rule-based and semantic search for law chapters, integrating parsing, document reading, and configurable prioritization across code types.",
+      "classes": [
+        {
+          "name": "HybridNavigator",
+          "lines": "15-211",
+          "tokens": 2565,
+          "content_hash": "8341a2e02845cb604b0d28ff084061ff",
+          "analyzed_by": "qwen",
+          "description": "Объединяет rule-based и семантический поиск для поиска релевантных глав законов, интегрирует LawNavigator и LocalSemanticRAG.",
+          "references": [
+            "Config",
+            "LawNavigator",
+            "LocalSemanticRAG",
+            "Path",
+            "chapter.get",
+            "context_parts.append",
+            "merged.values",
+            "r.get",
+            "result.get",
+            "time.time",
+            "x.get"
+          ],
+          "methods": [
+            "__init__",
+            "law_structures",
+            "get_full_chapter_content",
+            "_index_laws",
+            "find_relevant_chapters",
+            "find_relevant_containers",
+            "_merge_and_rank_results",
+            "get_context_for_ai"
+          ]
+        },
+        {
+          "name": "EnhancedHybridNavigator",
+          "lines": "213-413",
+          "tokens": 2248,
+          "content_hash": "63d3857f490781c93fe95346657559d3",
+          "analyzed_by": "qwen",
+          "description": "Расширенный гибридный навигатор для работы с различными типами правовых документов, включая кодексы, пленумы и подзаконные акты, с поддержкой семантического поиска и приоритезации результатов. Интегрируется с парсерами, классами для чтения документов и конфигурацией типов.",
+          "references": [
+            "SimpleLawParser",
+            "all_results.extend",
+            "all_results.sort",
+            "available_types.add",
+            "available_types.index",
+            "category_data.get",
+            "chapter.get",
+            "context_data.get",
+            "doc.paragraphs",
+            "doc_types.items",
+            "docx.Document",
+            "f.read",
+            "law_file.name",
+            "law_file.suffix",
+            "para.text",
+            "result_by_type.items",
+            "type_info.append",
+            "x.get"
+          ],
+          "methods": [
+            "__init__",
+            "get_full_chapter_content",
+            "_rebuild_law_structures_enhanced",
+            "_read_law_file",
+            "_get_document_type",
+            "_get_available_document_types",
+            "find_relevant_chapters_priority",
+            "_find_in_document_type",
+            "get_context_for_ai_enhanced"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:18.277155+00:00"
+    },
+    "src/core/law_navigator.py": {
+      "name": "law_navigator.py",
+      "path": "src/core/law_navigator.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\law_navigator.py",
+      "file_hash": "d0b5d3490c4ca237046550e694001312",
+      "tokens_total": 7649,
+      "lines_total": 638,
+      "imports": {
+        "lines": "2-14",
+        "modules": [
+          "os",
+          "pathlib.Path",
+          "typing.List",
+          "typing.Dict",
+          "sys",
+          "re",
+          "config.Config",
+          "src.core.simple_law_parser.SimpleLawParser",
+          "src.core.docx_intelligent_parser.DocxIntelligentParser"
+        ],
+        "tokens": 72
+      },
+      "globals": {
+        "lines": "7-7",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "Law navigation and analysis system integrating EnhancedLawParser and LegalConceptMapper for parsing legal documents and mapping concepts to structural units.",
+      "classes": [
+        {
+          "name": "EnhancedLawParser",
+          "lines": "16-217",
+          "tokens": 2346,
+          "content_hash": "cbe9591d36db23006780e5cbc6fd848b",
+          "analyzed_by": "qwen",
+          "description": "Parses major structural units of laws from text and DOCX files, integrates with SimpleLawParser and DocxIntelligentParser for content extraction.",
+          "references": [
+            "DocxIntelligentParser",
+            "Path",
+            "SimpleLawParser",
+            "block.split",
+            "block.strip",
+            "blocks.append",
+            "c.isupper",
+            "content.split",
+            "current_content.append",
+            "full_path.exists",
+            "law_file.name",
+            "law_name.lower",
+            "levels.get",
+            "line.endswith",
+            "line.strip",
+            "major_structures.append",
+            "match.groups",
+            "re.IGNORECASE",
+            "re.match",
+            "re.split",
+            "title.strip"
+          ],
+          "methods": [
+            "__init__",
+            "parse_law_major_structures",
+            "_identify_major_structure",
+            "_get_structure_level",
+            "_create_major_blocks_from_content",
+            "_extract_block_title",
+            "parse_law_enhanced"
+          ]
+        },
+        {
+          "name": "LegalConceptMapper",
+          "lines": "220-283",
+          "tokens": 881,
+          "content_hash": "574fef9d30d982ef4cbf4b152924dfe6",
+          "analyzed_by": "qwen",
+          "description": "Maps legal concepts to structural units in laws, integrates with os, pathlib.Path, typing.List, typing.Dict, and sys for file and data handling.",
+          "references": [
+            "question.lower",
+            "relevant_structures.extend"
+          ],
+          "methods": [
+            "__init__",
+            "find_relevant_structures_for_question"
+          ]
+        },
+        {
+          "name": "LawNavigator",
+          "lines": "285-638",
+          "tokens": 4292,
+          "content_hash": "1104a346fc633eb3f8092d56daffcafa",
+          "analyzed_by": "qwen",
+          "description": "Handles navigation and analysis of legal documents, integrating with EnhancedLawParser, SimpleLawParser, and LegalConceptMapper for parsing and relevance assessment.",
+          "references": [
+            "Config",
+            "EnhancedLawParser",
+            "LegalConceptMapper",
+            "Path",
+            "SimpleLawParser",
+            "chapter.get",
+            "context_parts.append",
+            "doc.paragraphs",
+            "docx.Document",
+            "f.name",
+            "f.read",
+            "full_content_parts.append",
+            "law_data.get",
+            "law_file.name",
+            "law_file.suffix",
+            "names.get",
+            "para.text",
+            "question.lower",
+            "re.findall",
+            "relevant_structures.append",
+            "relevant_structures.sort",
+            "structure.get",
+            "structures_by_type.items",
+            "suggested.lower",
+            "type_bonus.get",
+            "type_name.upper",
+            "x.get"
+          ],
+          "methods": [
+            "__init__",
+            "get_sublegal_files",
+            "get_code_files",
+            "get_plenum_files",
+            "_build_law_structures",
+            "_get_document_type",
+            "_read_law_file",
+            "find_relevant_chapters",
+            "find_relevant_sublegal_articles",
+            "_calculate_structure_relevance",
+            "get_context_for_ai",
+            "_get_structure_type_name",
+            "get_full_chapter_content"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2026-02-11T19:12:34.022950+00:00"
+    },
+    "src/core/legal_bot.py": {
+      "name": "legal_bot.py",
+      "path": "src/core/legal_bot.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\legal_bot.py",
+      "file_hash": "f168efd4c3d87423d941fc1e490fd00b",
+      "tokens_total": 481,
+      "lines_total": 54,
+      "imports": {
+        "lines": "2-3",
+        "modules": [
+          "src.rag.smart_rag_simple.SmartRAGSystem",
+          "src.classification.deepseek_classifier.DeepSeekClassifier"
+        ],
+        "tokens": 33
+      },
+      "globals": null,
+      "description": "Legal question classification and article retrieval system integrating DeepSeekClassifier with SmartRAG for automated legal assistance.",
+      "classes": [
+        {
+          "name": "LegalBotCore",
+          "lines": "5-54",
+          "tokens": 441,
+          "content_hash": "3bd4b96ace17f99e74447cf40e00791d",
+          "analyzed_by": "qwen",
+          "description": "Координация работы юридического бота через классификацию вопросов и поиск релевантных статей, интегрирует DeepSeekClassifier и SmartRAGSystem.",
+          "references": [
+            "Config",
+            "DeepSeekClassifier",
+            "SmartRAGSystem",
+            "config.LEGAL_CATEGORIES"
+          ],
+          "methods": [
+            "__init__",
+            "initialize",
+            "process_question",
+            "_get_category_name"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:11.556120+00:00"
+    },
+    "src/core/legal_bot_simple.py": {
+      "name": "legal_bot_simple.py",
+      "path": "src/core/legal_bot_simple.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\legal_bot_simple.py",
+      "file_hash": "358d7aeb3ce7820c24da24bbca180ecc",
+      "tokens_total": 1616,
+      "lines_total": 160,
+      "imports": {
+        "lines": "11-18",
+        "modules": [
+          "typing.Dict",
+          "src.classification.deepseek_classifier.DeepSeekClassifier",
+          "src.core.law_navigator.LawNavigator",
+          "requests",
+          "sys",
+          "pathlib.Path",
+          "config.Config",
+          "api_manager.api_manager"
+        ],
+        "tokens": 73
+      },
+      "globals": {
+        "lines": "21-21",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "Legal question processing system integrating a classifier, law navigator, and DeepSeek for recommendation generation.",
+      "classes": [
+        {
+          "name": "LegalBotCore",
+          "lines": "25-160",
+          "tokens": 1431,
+          "content_hash": "e57433dca0c4b488380497ff9b458541",
+          "analyzed_by": "qwen",
+          "description": "Обрабатывает юридические вопросы с использованием классификатора, навигатора законов и DeepSeek для генерации рекомендаций, интегрируя DeepSeekClassifier и LawNavigator.",
+          "references": [
+            "Config",
+            "DeepSeekClassifier",
+            "LawNavigator",
+            "requests.post",
+            "response.json",
+            "response.raise_for_status"
+          ],
+          "methods": [
+            "__init__",
+            "initialize",
+            "process_question",
+            "_analyze_with_deepseek",
+            "_get_category_name"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:11.314188+00:00"
+    },
+    "src/core/sequential_searcher.py": {
+      "name": "sequential_searcher.py",
+      "path": "src/core/sequential_searcher.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\sequential_searcher.py",
+      "file_hash": "d8abc5ca76fce960a5a20b01dfc4a69f",
+      "tokens_total": 32003,
+      "lines_total": 2717,
+      "imports": {
+        "lines": "2-15",
+        "modules": [
+          "json",
+          "re",
+          "time",
+          "asyncio",
+          "os",
+          "psutil",
+          "src.core.simple_law_parser.SimpleLawParser",
+          "pathlib.Path",
+          "typing.List",
+          "typing.Dict",
+          "difflib.SequenceMatcher",
+          "rapidfuzz.fuzz",
+          "rapidfuzz.process",
+          "api_manager.api_manager",
+          "src.core.answer_generator.AnswerGenerator",
+          "src.core.docx_intelligent_parser.DocxIntelligentParser"
+        ],
+        "tokens": 166
+      },
+      "globals": null,
+      "description": "Autonomous legal article search pipeline with RAG-based validation and hierarchical document parsing, integrating with a navigator for container retrieval and answer generation.",
+      "classes": [
+        {
+          "name": "RAG2Validator",
+          "lines": "17-644",
+          "tokens": 7146,
+          "content_hash": "6ef06d8ee6f585677acefd1c715bfe4a",
+          "analyzed_by": "qwen",
+          "description": "Handles validation of articles found by an AI search engine against legal documents, integrates with file system for law content retrieval.",
+          "references": [
+            "article.get",
+            "articles.append",
+            "content.lower",
+            "corrected_match.get",
+            "doc.paragraphs",
+            "docx.Document",
+            "f.read",
+            "f.write",
+            "found_phrases.append",
+            "found_phrases.extend",
+            "full_text.append",
+            "fuzz.ratio",
+            "json.dumps",
+            "law_content.find",
+            "law_name.lower",
+            "law_path.exists",
+            "match.end",
+            "match.group",
+            "match.start",
+            "next_match.start",
+            "para.text",
+            "question.lower",
+            "re.IGNORECASE",
+            "re.MULTILINE",
+            "re.findall",
+            "re.finditer",
+            "re.search",
+            "re.split",
+            "re.sub",
+            "sentence.strip",
+            "text.lower",
+            "time.ctime",
+            "time.time",
+            "unique_fragments.append",
+            "validation_result.get"
+          ],
+          "methods": [
+            "__init__",
+            "validate_articles",
+            "_validate_single_article",
+            "_load_law_content",
+            "_find_exact_article_match",
+            "_find_corrected_article_match",
+            "_find_article_by_title",
+            "_find_article_by_fuzzy_content",
+            "_find_article_by_key_phrases",
+            "_is_likely_fabricated",
+            "_split_law_into_articles",
+            "_normalize_text",
+            "_extract_article_number",
+            "_normalize_article_number",
+            "_extract_article_title_from_context",
+            "_extract_article_by_position",
+            "_extract_key_legal_phrases",
+            "_has_legal_article_structure",
+            "_is_relevant_to_question"
+          ]
+        },
+        {
+          "name": "IntelligentChunkManager",
+          "lines": "646-783",
+          "tokens": 1696,
+          "content_hash": "c7b7bb8ac874149afacd2692739976ac",
+          "analyzed_by": "qwen",
+          "description": "Manages the splitting of large chapters into smaller chunks to avoid 413 errors, integrates with regex for structural pattern matching and text splitting.",
+          "references": [
+            "chapter.get",
+            "chunk_text.strip",
+            "chunks.append",
+            "chunks_content.append",
+            "chunks_content.extend",
+            "m.start",
+            "prepared_chunks.append",
+            "re.finditer",
+            "search_window.rfind"
+          ],
+          "methods": [
+            "__init__",
+            "prepare_chapter_analysis",
+            "_split_chapter_into_chunks",
+            "_split_by_size"
+          ]
+        },
+        {
+          "name": "SequentialArticleSearcher",
+          "lines": "785-2717",
+          "tokens": 22983,
+          "content_hash": "821f0723cb35983c62f1edc6999b97fd",
+          "analyzed_by": "deepseek",
+          "description": "Autonomous legal article search pipeline with RAG-based validation and hierarchical document parsing, integrates with navigator for container retrieval and answer generation.",
+          "references": [
+            "AnswerGenerator",
+            "DocxIntelligentParser",
+            "IntelligentChunkManager",
+            "Path",
+            "RAG2Validator",
+            "SimpleLawParser",
+            "ValueError",
+            "all_articles.append",
+            "all_chapters.extend",
+            "answer_generator.generate_answer_from_articles",
+            "api_manager.deepseek_completion",
+            "article.get",
+            "articles_info.append",
+            "asyncio.Semaphore",
+            "asyncio.gather",
+            "asyncio.get_event_loop",
+            "category_hints.get",
+            "chapter.get",
+            "chapter_analysis.get",
+            "chapter_result.get",
+            "chapter_title.lower",
+            "chapters.append",
+            "chapters_to_process.append",
+            "chunk_results.append",
+            "cleaned_extracted.replace",
+            "cleaned_lines.append",
+            "cleaned_response.endswith",
+            "cleaned_response.startswith",
+            "config.get_extended_laws_for_category",
+            "content.lower",
+            "content_preserve.items",
+            "cpu_end.system",
+            "cpu_end.user",
+            "cpu_start.system",
+            "cpu_start.user",
+            "debug_dir.mkdir",
+            "doc.paragraphs",
+            "doc_types.get",
+            "docx.Document",
+            "e.colno",
+            "e.lineno",
+            "e.pos",
+            "enriched_chapters.append",
+            "existing_law_files.append",
+            "extracted.replace",
+            "extracted.split",
+            "f.read",
+            "f.write",
+            "fixed_lines.append",
+            "hints_path.exists",
+            "json.JSONDecodeError",
+            "json.dump",
+            "json.load",
+            "json.loads",
+            "json_match.group",
+            "json_str.count",
+            "json_str.find",
+            "json_str.replace",
+            "json_str.rfind",
+            "json_str.split",
+            "json_str.strip",
+            "law_content.split",
+            "law_file.exists",
+            "law_file.lower",
+            "law_name.lower",
+            "law_path.exists",
+            "line.count",
+            "line.endswith",
+            "line.lower",
+            "line.startswith",
+            "line.strip",
+            "locals",
+            "match.group",
+            "new_chapters.append",
+            "next_line.startswith",
+            "original_content.replace",
+            "os.getpid",
+            "p.text",
+            "phase_articles.extend",
+            "proc.cpu_times",
+            "proc.memory_info",
+            "prompt_parts.append",
+            "psutil.Process",
+            "psutil.cpu_count",
+            "question.lower",
+            "r.get",
+            "re.DOTALL",
+            "re.IGNORECASE",
+            "re.finditer",
+            "re.search",
+            "re.sub",
+            "reasoning.lower",
+            "repaired.replace",
+            "repaired_lines.append",
+            "response.strip",
+            "result.append",
+            "result.get",
+            "results_dir.mkdir",
+            "run_with_semaphore",
+            "smart_parser.chunk_tree",
+            "smart_parser.parse",
+            "structure.get",
+            "sys.path",
+            "tasks.append",
+            "time.ctime",
+            "time.time",
+            "traceback.print_exc",
+            "trigger.lower",
+            "unit.get",
+            "valid_articles.append",
+            "valid_chapters.append"
+          ],
+          "methods": [
+            "__init__",
+            "_load_search_hints",
+            "sequential_search",
+            "_get_laws_for_category",
+            "_get_all_chapters_from_laws",
+            "_read_law_fallback",
+            "_extract_all_chapters_from_law",
+            "_extract_chapters_from_code",
+            "_convert_structures_to_chapters",
+            "_find_relevant_chapters",
+            "_analyze_chapters_phase",
+            "_enrich_chapter_content",
+            "_extract_chapter_from_law",
+            "_build_chunk_aware_prompt",
+            "_analyze_single_chapter",
+            "_analyze_single_chapter_async",
+            "_analyze_single_chapter_sync",
+            "_save_articles_to_file_async",
+            "_detect_document_type",
+            "_get_search_hint",
+            "_build_real_search_prompt",
+            "_assess_and_expand_search",
+            "_assess_articles_sufficiency",
+            "_parse_sufficiency_response",
+            "_perform_expanded_search",
+            "_save_articles_to_file",
+            "_save_search_log",
+            "_create_error_result",
+            "_parse_chapter_response",
+            "_clean_json_string",
+            "_repair_json_string",
+            "_fix_missing_commas",
+            "_fix_unclosed_quotes",
+            "_fix_unclosed_brackets",
+            "_is_irrelevant_article",
+            "_save_final_articles_to_json"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2026-02-12T19:52:32.270530+00:00"
+    },
+    "src/core/simple_law_parser.py": {
+      "name": "simple_law_parser.py",
+      "path": "src/core/simple_law_parser.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\core\\simple_law_parser.py",
+      "file_hash": "e88060cfacb4079e882e04765e9ba315",
+      "tokens_total": 2752,
+      "lines_total": 272,
+      "imports": {
+        "lines": "2-3",
+        "modules": [
+          "re",
+          "typing.List",
+          "typing.Dict"
+        ],
+        "tokens": 9
+      },
+      "globals": null,
+      "description": "Python parser for semi-structured legal texts using regex and heuristics to extract articles, clauses, and headers, outputting structured data as lists and dictionaries.",
+      "classes": [
+        {
+          "name": "SimpleLawParser",
+          "lines": "5-272",
+          "tokens": 2733,
+          "content_hash": "7f893956683fad85150418b9ccbea96e",
+          "analyzed_by": "qwen",
+          "description": "Парсит текстовые документы с простой структурой (например, подзаконные акты и постановления Пленума), выделяя статьи, пункты и заголовки, используя регулярные выражения и эвристики. Интегрируется с типами данных List и Dict для формирования структурированного вывода.",
+          "references": [
+            "block.split",
+            "block.strip",
+            "blocks.append",
+            "c.isupper",
+            "content.split",
+            "current_content.append",
+            "law_name.lower",
+            "line.endswith",
+            "line.isupper",
+            "line.lower",
+            "line.split",
+            "line.strip",
+            "re.IGNORECASE",
+            "re.match",
+            "re.split",
+            "structures.append"
+          ],
+          "methods": [
+            "parse_simple_structure",
+            "_parse_plenum_by_headings",
+            "_is_plenum_structure_start",
+            "_is_plenum_chapter_heading",
+            "_parse_sublegal_structure",
+            "_parse_sublegal_fallback",
+            "_create_fallback_blocks",
+            "_extract_block_title"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:14.400670+00:00"
+    },
+    "src/rag/__init__.py": {
+      "name": "__init__.py",
+      "path": "src/rag/__init__.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\rag\\__init__.py",
+      "file_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0,
+      "lines_total": 0,
+      "imports": null,
+      "globals": null,
+      "description": "Utility module with minimal significant logic.",
+      "classes": [],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:46:58.202991+00:00"
+    },
+    "src/rag/local_semantic_rag.py": {
+      "name": "local_semantic_rag.py",
+      "path": "src/rag/local_semantic_rag.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\rag\\local_semantic_rag.py",
+      "file_hash": "1e276fd0987e0dbdd4895f7a13c2f75c",
+      "tokens_total": 3252,
+      "lines_total": 312,
+      "imports": {
+        "lines": "2-22",
+        "modules": [
+          "torch",
+          "transformers.AutoTokenizer",
+          "transformers.AutoModel",
+          "numpy",
+          "sklearn.metrics.pairwise.cosine_similarity",
+          "pickle",
+          "os",
+          "pathlib.Path",
+          "sys",
+          "typing.List",
+          "typing.Dict",
+          "typing.Tuple",
+          "time",
+          "chromadb.errors",
+          "shutil",
+          "config.Config",
+          "chromadb",
+          "chromadb.utils.embedding_functions"
+        ],
+        "tokens": 76
+      },
+      "globals": {
+        "lines": "16-16",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "Semantic search and retrieval system for legal documents using ChromaDB and transformer embeddings, integrated with numpy for numerical processing.",
+      "classes": [
+        {
+          "name": "LocalSemanticRAG",
+          "lines": "24-312",
+          "tokens": 3130,
+          "content_hash": "df3123cafba1f7156a6df7ea39aa23f1",
+          "analyzed_by": "qwen",
+          "description": "Handles semantic search and retrieval of relevant legal documents using ChromaDB, integrates with transformers for embedding generation and numpy for numerical operations.",
+          "references": [
+            "Config",
+            "Path",
+            "chromadb.PersistentClient",
+            "chromadb.errors",
+            "embedding_functions.SentenceTransformerEmbeddingFunction",
+            "final_containers.append",
+            "final_results.append",
+            "inputs.items",
+            "meta.get",
+            "np.ndarray",
+            "np.zeros",
+            "outputs.last_hidden_state",
+            "pickle.dump",
+            "pickle.load",
+            "shutil.rmtree",
+            "sub_meta.get",
+            "text.strip",
+            "time.time",
+            "torch.no_grad",
+            "traceback.print_exc",
+            "v.to"
+          ],
+          "methods": [
+            "__init__",
+            "_load_embeddings_cache",
+            "_save_embeddings_cache",
+            "get_embedding",
+            "index_law_chapters",
+            "find_relevant_containers",
+            "semantic_search"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2026-02-11T19:19:16.122798+00:00"
+    },
+    "src/rag/smart_rag_fixed.py": {
+      "name": "smart_rag_fixed.py",
+      "path": "src/rag/smart_rag_fixed.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\rag\\smart_rag_fixed.py",
+      "file_hash": "a81505fc31ac96c84f330a24410a992a",
+      "tokens_total": 2145,
+      "lines_total": 227,
+      "imports": {
+        "lines": "2-8",
+        "modules": [
+          "chromadb",
+          "sentence_transformers.SentenceTransformer",
+          "os",
+          "pathlib.Path",
+          "config.Config",
+          "chromadb.errors",
+          "shutil"
+        ],
+        "tokens": 32
+      },
+      "globals": null,
+      "description": "Smart RAG system for legal document retrieval using ChromaDB and SentenceTransformer embeddings, integrated with configurable directory paths and legal categories.",
+      "classes": [
+        {
+          "name": "SmartRAGSystem",
+          "lines": "10-227",
+          "tokens": 2101,
+          "content_hash": "fb84d3f09166b7fbf6c137d305862c61",
+          "analyzed_by": "qwen",
+          "description": "Manages a Retrieval-Augmented Generation (RAG) system for legal laws using ChromaDB and SentenceTransformer for embedding, integrates with config for directory paths and legal categories.",
+          "references": [
+            "Config",
+            "Path",
+            "SentenceTransformer",
+            "all_results.append",
+            "article_content.strip",
+            "articles.append",
+            "chromadb.PersistentClient",
+            "chromadb.errors",
+            "content.split",
+            "content.strip",
+            "current_article.append",
+            "f.read",
+            "formatted_results.append",
+            "law_file.name",
+            "line.startswith",
+            "line.strip",
+            "shutil.rmtree",
+            "traceback.print_exc"
+          ],
+          "methods": [
+            "__init__",
+            "_index_laws",
+            "_split_into_articles",
+            "search_with_priority",
+            "_search_in_specific_laws",
+            "_search_all_laws",
+            "_merge_and_rank_results"
+          ]
+        }
+      ],
+      "functions": [],
+      "last_indexed": "2026-02-11T19:19:16.161993+00:00"
+    },
+    "src/rag/smart_rag_simple.py": {
+      "name": "smart_rag_simple.py",
+      "path": "src/rag/smart_rag_simple.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\rag\\smart_rag_simple.py",
+      "file_hash": "83894629ad0b58560f67256185894e50",
+      "tokens_total": 9142,
+      "lines_total": 855,
+      "imports": {
+        "lines": "3-24",
+        "modules": [
+          "chromadb",
+          "chromadb.errors",
+          "sentence_transformers.SentenceTransformer",
+          "os",
+          "re",
+          "shutil",
+          "sys",
+          "gc",
+          "time",
+          "platform",
+          "json",
+          "pathlib.Path",
+          "typing.Dict",
+          "typing.Optional",
+          "config.Config",
+          "src.core.law_navigator.EnhancedLawParser",
+          "src.core.simple_law_parser.SimpleLawParser",
+          "src.core.docx_intelligent_parser.DocxIntelligentParser"
+        ],
+        "tokens": 96
+      },
+      "globals": {
+        "lines": "18-18",
+        "names": [
+          "project_root"
+        ],
+        "tokens": 10
+      },
+      "description": "SmartRAGSystem for legal document retrieval and indexing with ChromaDB and SentenceTransformer, integrated with file parsing and automatic encoding detection.",
+      "classes": [
+        {
+          "name": "SmartRAGSystem",
+          "lines": "48-855",
+          "tokens": 8761,
+          "content_hash": "98b5c8b1cd553ba1d13b4ce33ad0dcd4",
+          "analyzed_by": "qwen",
+          "description": "Handles legal document retrieval and indexing using ChromaDB and SentenceTransformer, integrates with file parsers and metadata management.",
+          "references": [
+            "Config",
+            "DocxIntelligentParser",
+            "EnhancedLawParser",
+            "Path",
+            "SentenceTransformer",
+            "SimpleLawParser",
+            "SmartRAGSystem._chroma_client",
+            "SmartRAGSystem._chroma_path",
+            "SmartRAGSystem._embedding_model",
+            "all_results.append",
+            "c.get",
+            "cache_path.exists",
+            "chapter.get",
+            "chapter_title.lower",
+            "chromadb.PersistentClient",
+            "chromadb.errors",
+            "chunk.get",
+            "chunk_title.lower",
+            "content.split",
+            "current_files.items",
+            "description.strip",
+            "expected_laws.update",
+            "f.name",
+            "f.suffix",
+            "file_path.name",
+            "file_path.suffix",
+            "final_containers.append",
+            "final_containers.sort",
+            "formatted_results.append",
+            "gc.collect",
+            "json.dump",
+            "json.load",
+            "law.lower",
+            "law_data.get",
+            "law_name.lower",
+            "law_path.exists",
+            "laws_dict.items",
+            "laws_dict.keys",
+            "line.lower",
+            "meta.get",
+            "metadata.get",
+            "os.path",
+            "path.exists",
+            "path.name",
+            "platform.system",
+            "read_file_with_encoding",
+            "result.get",
+            "shutil.rmtree",
+            "time.sleep"
+          ],
+          "methods": [
+            "__init__",
+            "_get_document_type",
+            "_run_diagnostics",
+            "_check_actual_filenames",
+            "_check_law_files_changes",
+            "_save_law_files_cache",
+            "clear_database",
+            "diagnose_metadata",
+            "test_filters",
+            "_verify_chroma_content",
+            "check_new_laws",
+            "_index_laws",
+            "_search_in_specific_laws",
+            "_search_all_laws",
+            "_merge_and_rank_results",
+            "search_with_priority",
+            "find_relevant_containers",
+            "_read_chapter_from_law_file",
+            "_close_chroma_client",
+            "_safe_remove_directory"
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "read_file_with_encoding",
+          "lines": "27-45",
+          "tokens": 232,
+          "content_hash": "5f674ece520aa63508513eb2f18db9b0",
+          "analyzed_by": "qwen",
+          "description": "Reads a file with automatic encoding detection, attempting UTF-8 and Windows-1251, and falls back to UTF-8 with error ignoring.",
+          "references": [
+            "f.read"
+          ]
+        }
+      ],
+      "last_indexed": "2026-02-12T16:37:26.656376+00:00"
+    },
+    "src/tools/structure_analyzer.py": {
+      "name": "structure_analyzer.py",
+      "path": "src/tools/structure_analyzer.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\tools\\structure_analyzer.py",
+      "file_hash": "298a8c0d3b23744fdac288e8515317fa",
+      "tokens_total": 3308,
+      "lines_total": 293,
+      "imports": {
+        "lines": "2-7",
+        "modules": [
+          "os",
+          "json",
+          "pathlib.Path",
+          "datetime.datetime",
+          "docx.Document",
+          "docx.shared.Inches"
+        ],
+        "tokens": 28
+      },
+      "globals": null,
+      "description": "Document structure analyzer for legal documents using python-docx, generating TXT/DOCX reports and integrating with LawNavigator and IntelligentChunkManager for data processing.",
+      "classes": [
+        {
+          "name": "DocumentStructureAnalyzer",
+          "lines": "9-278",
+          "tokens": 3136,
+          "content_hash": "d2c25e46a4927758437f6991c541907b",
+          "analyzed_by": "qwen",
+          "description": "Анализирует структуру юридических документов и чанков, генерируя отчеты в форматах TXT и DOCX, интегрируется с LawNavigator и IntelligentChunkManager для получения и обработки структурных данных.",
+          "references": [
+            "Document",
+            "IntelligentChunkManager",
+            "LawNavigator",
+            "Path",
+            "chr",
+            "chunk.get",
+            "content.count",
+            "content.find",
+            "content.split",
+            "datetime.now",
+            "doc.add_heading",
+            "doc.add_paragraph",
+            "doc.save",
+            "f.readlines",
+            "f.write",
+            "file.write",
+            "first_lines.append",
+            "last_lines.append",
+            "law_data.get",
+            "law_name.replace",
+            "line.startswith",
+            "line.strip",
+            "line.upper",
+            "markers_found.append",
+            "p.add_run",
+            "p.style",
+            "structure.get",
+            "sys.path",
+            "type_icons.get"
+          ],
+          "methods": [
+            "__init__",
+            "analyze_all_documents",
+            "_analyze_document_chunks",
+            "_analyze_subchunks",
+            "_analyze_chunk_boundaries",
+            "_create_docx_report",
+            "analyze_specific_document",
+            "_analyze_term_occurrence"
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "analyze_documents",
+          "lines": "281-288",
+          "tokens": 66,
+          "content_hash": "13b9cf91f52ac7cbb05b4225fd31a602",
+          "analyzed_by": "deepseek",
+          "description": "Document structure analyzer for Word documents using python-docx, supporting both single-file and batch processing with JSON output.",
+          "references": [
+            "DocumentStructureAnalyzer",
+            "analyzer.analyze_all_documents",
+            "analyzer.analyze_specific_document"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:38.515926+00:00"
+    },
+    "src/utils/__init__.py": {
+      "name": "__init__.py",
+      "path": "src/utils/__init__.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\utils\\__init__.py",
+      "file_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0,
+      "lines_total": 0,
+      "imports": null,
+      "globals": null,
+      "description": "Utility module with minimal significant logic.",
+      "classes": [],
+      "functions": [],
+      "last_indexed": "2025-12-13T07:47:11.782120+00:00"
+    },
+    "src/utils/encoding_detector.py": {
+      "name": "encoding_detector.py",
+      "path": "src/utils/encoding_detector.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\utils\\encoding_detector.py",
+      "file_hash": "88461e86de31c899fedf62594843a1d0",
+      "tokens_total": 485,
+      "lines_total": 49,
+      "imports": {
+        "lines": "2-3",
+        "modules": [
+          "chardet",
+          "pathlib.Path"
+        ],
+        "tokens": 9
+      },
+      "globals": null,
+      "description": "Encoding detection utility using chardet with fallback mechanisms, integrates with file reading workflows for robust text processing.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "detect_encoding",
+          "lines": "5-20",
+          "tokens": 153,
+          "content_hash": "8306061c87454181d1057961256a7a45",
+          "analyzed_by": "qwen",
+          "description": "Определяет кодировку файла с использованием библиотеки chardet, применяет Windows-1251 в случае низкой уверенности.",
+          "references": [
+            "chardet.detect",
+            "f.read",
+            "file_path.name"
+          ]
+        },
+        {
+          "name": "read_file_with_encoding",
+          "lines": "22-49",
+          "tokens": 313,
+          "content_hash": "f1272689aa12bf25ba5b976a78e82ae6",
+          "analyzed_by": "qwen",
+          "description": "Reads a file with automatic encoding detection using chardet, and falls back to common encodings if detection fails.",
+          "references": [
+            "detect_encoding",
+            "f.read"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:26.341227+00:00"
+    },
+    "src/utils/law_utils.py": {
+      "name": "law_utils.py",
+      "path": "src/utils/law_utils.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\src\\utils\\law_utils.py",
+      "file_hash": "83e1329be8125483e122ce2f97582720",
+      "tokens_total": 280,
+      "lines_total": 28,
+      "imports": {
+        "lines": "2-4",
+        "modules": [
+          "sys",
+          "pathlib.Path",
+          "typing.List"
+        ],
+        "tokens": 12
+      },
+      "globals": {
+        "lines": "7-8",
+        "names": [
+          "current_file",
+          "project_root"
+        ],
+        "tokens": 38
+      },
+      "description": "Law categorization utility that retrieves legislation lists by category, integrating with a Config class for data sourcing and supporting both extended and standard configuration methods.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "get_category_laws",
+          "lines": "18-28",
+          "tokens": 130,
+          "content_hash": "84015af55d381332bc30e5636e9ba024",
+          "analyzed_by": "qwen",
+          "description": "Возвращает список законов для указанной категории, используя расширенный метод конфигурации, если доступен, иначе — стандартную логику. Интегрируется с классом Config для получения данных о законах.",
+          "references": [
+            "Config",
+            "config.LEGAL_CATEGORIES",
+            "config.get_extended_laws_for_category"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:26.072527+00:00"
+    },
+    "test_deepseek_ping.py": {
+      "name": "test_deepseek_ping.py",
+      "path": "test_deepseek_ping.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\test_deepseek_ping.py",
+      "file_hash": "1835c33316f7ceabefe444c9a2e807ec",
+      "tokens_total": 562,
+      "lines_total": 60,
+      "imports": {
+        "lines": "3-4",
+        "modules": [
+          "time",
+          "api_manager.APIManager"
+        ],
+        "tokens": 9
+      },
+      "globals": null,
+      "description": "Integration test for DeepSeek API connectivity and performance via APIManager, measuring initialization, request, and response timing through direct deepseek_completion calls.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "main",
+          "lines": "6-57",
+          "tokens": 534,
+          "content_hash": "1fe3b8f6e2ad88e2868cc98cc4bbc2dd",
+          "analyzed_by": "qwen",
+          "description": "Тестирует подключение и работу с DeepSeek API через APIManager, измеряя время инициализации, отправки запроса и получения ответа. Использует прямой вызов метода deepseek_completion.",
+          "references": [
+            "APIManager",
+            "api.deepseek_api_key",
+            "api.deepseek_completion",
+            "endpoint.startswith",
+            "time.time"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:26.378916+00:00"
+    },
+    "test_parser_report.py": {
+      "name": "test_parser_report.py",
+      "path": "test_parser_report.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\test_parser_report.py",
+      "file_hash": "acd5a529b1ddd9ebc8af534c550191b3",
+      "tokens_total": 1146,
+      "lines_total": 107,
+      "imports": {
+        "lines": "1-5",
+        "modules": [
+          "os",
+          "sys",
+          "time",
+          "pathlib.Path",
+          "datetime.datetime"
+        ],
+        "tokens": 18
+      },
+      "globals": {
+        "lines": "9-29",
+        "names": [
+          "BASE_DIR",
+          "LAWS_DIR",
+          "SRC_CORE_DIR",
+          "REPORT_FILE"
+        ],
+        "tokens": 63
+      },
+      "description": "Unit test suite for DocxIntelligentParser that validates document tree generation and performance metrics, integrating pathlib and datetime for file handling and timestamped reporting.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "print_tree",
+          "lines": "32-41",
+          "tokens": 155,
+          "content_hash": "209cac3d552edeaca3e0ac6ffec3fa2f",
+          "analyzed_by": "qwen",
+          "description": "Recursively prints a document tree structure to a file with indentation and icons, showing node level, title, and size.",
+          "references": [
+            "file_handle.write",
+            "node.children",
+            "node.full_text_size",
+            "node.level",
+            "node.title",
+            "print_tree"
+          ]
+        },
+        {
+          "name": "run_test",
+          "lines": "44-104",
+          "tokens": 654,
+          "content_hash": "85609c2d7925242b959d9318a71d967f",
+          "analyzed_by": "qwen",
+          "description": "Запускает тестирование DocxIntelligentParser, обрабатывает .docx файлы из указанной папки, генерирует отчет с временем выполнения, количеством чанков и структурой документа, интегрируется с pathlib и datetime для работы с файлами и датой.",
+          "references": [
+            "DocxIntelligentParser",
+            "LAWS_DIR.exists",
+            "LAWS_DIR.glob",
+            "datetime.now",
+            "f.name",
+            "f_out.write",
+            "file_path.name",
+            "parser.chunk_tree",
+            "parser.parse",
+            "print_tree",
+            "root.children",
+            "time.time"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:26.228925+00:00"
+    },
+    "test_report_gen.py": {
+      "name": "test_report_gen.py",
+      "path": "test_report_gen.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\test_report_gen.py",
+      "file_hash": "17a4aef26b2b0c67865ee352f398d737",
+      "tokens_total": 5395,
+      "lines_total": 487,
+      "imports": {
+        "lines": "5-18",
+        "modules": [
+          "sys",
+          "os",
+          "asyncio",
+          "time",
+          "json",
+          "pathlib.Path",
+          "datetime.datetime",
+          "docx.Document",
+          "docx.shared.Pt",
+          "docx.shared.RGBColor",
+          "docx.shared.Inches",
+          "docx.enum.text.WD_ALIGN_PARAGRAPH",
+          "docx.oxml.ns.qn",
+          "docx.oxml.OxmlElement"
+        ],
+        "tokens": 76
+      },
+      "globals": {
+        "lines": "20-21",
+        "names": [
+          "current_file",
+          "project_root"
+        ],
+        "tokens": 15
+      },
+      "description": "Automated test suite for RAG-based search validation with integrated DOCX report generation using python-docx, logging, and performance analysis.",
+      "classes": [],
+      "functions": [
+        {
+          "name": "set_cell_background",
+          "lines": "38-42",
+          "tokens": 75,
+          "content_hash": "d7a60a0de1eb7e93f4c1fc4ea2707522",
+          "analyzed_by": "qwen",
+          "description": "Sets the background color of a table cell by modifying its XML properties in a document.",
+          "references": [
+            "OxmlElement",
+            "cell._element",
+            "qn",
+            "shading_elm.set"
+          ]
+        },
+        {
+          "name": "add_heading_styled",
+          "lines": "45-52",
+          "tokens": 83,
+          "content_hash": "dce10ec2a0d8bd5beeafb811622d24fc",
+          "analyzed_by": "qwen",
+          "description": "Adds a styled heading to a document with specified text, level, and font color, making the text bold.",
+          "references": [
+            "RGBColor",
+            "doc.add_heading",
+            "h.runs",
+            "run.font"
+          ]
+        },
+        {
+          "name": "add_paragraph_styled",
+          "lines": "55-67",
+          "tokens": 116,
+          "content_hash": "c7d908f1ebe74a366de27a838b07b1ba",
+          "analyzed_by": "deepseek",
+          "description": "Adds a styled paragraph to a python-docx Document object with configurable font attributes, returning the paragraph for further manipulation.",
+          "references": [
+            "Pt",
+            "RGBColor",
+            "doc.add_paragraph",
+            "p.runs",
+            "run.font"
+          ]
+        },
+        {
+          "name": "generate_docx_report",
+          "lines": "70-355",
+          "tokens": 3288,
+          "content_hash": "22f668200581a6e8142b387f42032878",
+          "analyzed_by": "qwen",
+          "description": "Генерирует структурированный DOCX-отчет о поиске, валидации и генерации ответа на основе переданных данных, используя библиотеку python-docx.",
+          "references": [
+            "Document",
+            "Inches",
+            "Pt",
+            "RGBColor",
+            "WD_ALIGN_PARAGRAPH.CENTER",
+            "add_heading_styled",
+            "add_paragraph_styled",
+            "category.upper",
+            "cell.paragraphs",
+            "cell_run.font",
+            "ch.get",
+            "datetime.now",
+            "detail.get",
+            "doc.add_heading",
+            "doc.add_page_break",
+            "doc.add_paragraph",
+            "doc.add_table",
+            "doc.save",
+            "doc.sections",
+            "gen_result.get",
+            "meta_table.rows",
+            "meta_table.style",
+            "orig.get",
+            "p.add_run",
+            "paragraph.runs",
+            "phase_table.rows",
+            "phase_table.style",
+            "rag2_results.get",
+            "rag_stats_table.add_row",
+            "rag_stats_table.rows",
+            "rag_stats_table.style",
+            "resource_stats.get",
+            "resources_table.rows",
+            "resources_table.style",
+            "result.get",
+            "row.cells",
+            "run.bold",
+            "run.font",
+            "search_log.get",
+            "section.bottom_margin",
+            "section.left_margin",
+            "section.right_margin",
+            "section.top_margin",
+            "set_cell_background",
+            "title.alignment",
+            "title.runs"
+          ]
+        },
+        {
+          "name": "test_autonomous_search_with_rag2_and_report",
+          "lines": "361-483",
+          "tokens": 1385,
+          "content_hash": "2af7f9f5f11a0c8974ae72b8615d9252",
+          "analyzed_by": "qwen",
+          "description": "Тестирует автономный поиск с использованием RAG2 и генерацией DOCX-отчёта, включая логирование, валидацию статей и анализ времени выполнения. Интегрируется с HybridNavigator, SequentialArticleSearcher и генератором отчётов.",
+          "references": [
+            "HybridNavigator",
+            "Path",
+            "SequentialArticleSearcher",
+            "answer_gen.get",
+            "generate_docx_report",
+            "rag2_results.get",
+            "report_path.exists",
+            "report_path.name",
+            "report_path.stat",
+            "result.get",
+            "search_log.get",
+            "searcher.sequential_search",
+            "time.time",
+            "traceback.print_exc"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:43.222986+00:00"
+    },
+    "test_sequential_search(criminal) копия (2)  копия — копия — копия.py": {
+      "name": "test_sequential_search(criminal) копия (2)  копия — копия — копия.py",
+      "path": "test_sequential_search(criminal) копия (2)  копия — копия — копия.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\test_sequential_search(criminal) копия (2)  копия — копия — копия.py",
+      "file_hash": "c1c8d49c3abac1a87887c430fe551334",
+      "tokens_total": 9525,
+      "lines_total": 790,
+      "imports": {
+        "lines": "5-19",
+        "modules": [
+          "sys",
+          "os",
+          "asyncio",
+          "time",
+          "json",
+          "traceback",
+          "pathlib.Path",
+          "datetime.datetime",
+          "dataclasses.dataclass",
+          "dataclasses.field",
+          "typing.Dict",
+          "typing.List",
+          "typing.Optional",
+          "typing.Any",
+          "docx",
+          "docx.shared.Pt",
+          "docx.shared.Inches",
+          "docx.shared.RGBColor",
+          "docx.enum.text.WD_ALIGN_PARAGRAPH",
+          "docx.enum.text.WD_LINE_SPACING",
+          "docx.enum.table.WD_TABLE_ALIGNMENT",
+          "docx.oxml.ns.qn"
+        ],
+        "tokens": 101
+      },
+      "globals": {
+        "lines": "21-22",
+        "names": [
+          "current_file",
+          "project_root"
+        ],
+        "tokens": 15
+      },
+      "description": "Automated test suite for sequential legal article search, integrating performance logging, validation, and detailed DOCX report generation via a structured execution pipeline.",
+      "classes": [
+        {
+          "name": "TimingInfo",
+          "lines": "37-51",
+          "tokens": 182,
+          "content_hash": "2b36eb782af2880e3c096bbe58baba18",
+          "analyzed_by": "qwen",
+          "description": "Хранит временные метки для измерения производительности различных этапов выполнения, включая инициализацию, поиск, валидацию и генерацию ответов.",
+          "references": [
+            "field"
+          ],
+          "methods": []
+        },
+        {
+          "name": "DetailedLogger",
+          "lines": "54-146",
+          "tokens": 883,
+          "content_hash": "8c5fa325f98dc1b6cfae8151afc6e6f2",
+          "analyzed_by": "deepseek",
+          "description": "Execution phase logger with timing capture and JSON report generation, integrates with system monitoring via structured log entries.",
+          "references": [
+            "TimingInfo",
+            "summary.append",
+            "time.time"
+          ],
+          "methods": [
+            "__init__",
+            "log_phase_start",
+            "log_phase_end",
+            "log_step",
+            "get_phase_duration",
+            "get_total_duration",
+            "get_detailed_report",
+            "_generate_summary"
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "create_detailed_docx_report",
+          "lines": "149-470",
+          "tokens": 3691,
+          "content_hash": "940a86b6c07739b72c8a28194da2f33f",
+          "analyzed_by": "qwen",
+          "description": "Создает подробный DOCX-отчет по результатам поиска юридических норм, включая метаданные, тайминги, статистику валидации, генерацию ответа и логи выполнения. Интегрируется с DetailedLogger и результатами тест-кейса.",
+          "references": [
+            "Pt",
+            "RGBColor.from_string",
+            "WD_ALIGN_PARAGRAPH.CENTER",
+            "answer.strip",
+            "answer_generation.get",
+            "article.get",
+            "articles_table.rows",
+            "articles_table.style",
+            "cell.paragraphs",
+            "datetime.fromtimestamp",
+            "datetime.now",
+            "detail.get",
+            "doc.add_heading",
+            "doc.add_page_break",
+            "doc.add_paragraph",
+            "doc.add_table",
+            "doc.save",
+            "doc.styles",
+            "docx.Document",
+            "entry.get",
+            "generation_log.get",
+            "log_entry.get",
+            "logger.get_phase_duration",
+            "logger.get_total_duration",
+            "logger.log_entries",
+            "logger.phase_durations",
+            "meta_p.add_run",
+            "meta_table.autofit",
+            "meta_table.rows",
+            "meta_table.style",
+            "p.add_run",
+            "para.strip",
+            "perf_table.rows",
+            "perf_table.style",
+            "phase.replace",
+            "phase_name.replace",
+            "phases.items",
+            "rag2_results.get",
+            "reason.get",
+            "recommendations.append",
+            "result.get",
+            "run.bold",
+            "stats.add_run",
+            "stats_table.rows",
+            "stats_table.style",
+            "status_run.font",
+            "style.font",
+            "style.paragraph_format",
+            "timing_table.rows",
+            "timing_table.style",
+            "title.alignment"
+          ]
+        },
+        {
+          "name": "run_single_test_case",
+          "lines": "473-565",
+          "tokens": 955,
+          "content_hash": "bc61e3269bbba4ac9f899ba5218b983f",
+          "analyzed_by": "qwen",
+          "description": "Выполняет тестовый кейс поиска статей с логированием этапов, используя SequentialArticleSearcher и HybridNavigator, возвращает результаты поиска и метрики.",
+          "references": [
+            "DetailedLogger",
+            "HybridNavigator",
+            "SequentialArticleSearcher",
+            "answer_gen.get",
+            "gen_log.get",
+            "logger.log_phase_end",
+            "logger.log_phase_start",
+            "logger.log_step",
+            "logger.phase_durations",
+            "logger.timings",
+            "rag2_results.get",
+            "result.get",
+            "searcher.sequential_search",
+            "time.time",
+            "traceback.format_exc"
+          ]
+        },
+        {
+          "name": "execute_detailed_test_suite",
+          "lines": "568-768",
+          "tokens": 3308,
+          "content_hash": "988db10f4e3dcd92fb375235ea79e45f",
+          "analyzed_by": "qwen",
+          "description": "Выполняет детализированный тестовый прогон сценариев, логгирует этапы, генерирует отчеты и оценивает эффективность обработки, интегрируясь с RAG2 и системой генерации ответов.",
+          "references": [
+            "Path",
+            "Pt",
+            "WD_ALIGN_PARAGRAPH.CENTER",
+            "answer_gen.get",
+            "create_detailed_docx_report",
+            "datetime.now",
+            "docx.Document",
+            "final_report.add_heading",
+            "final_report.add_paragraph",
+            "final_report.add_table",
+            "final_report.save",
+            "final_report.styles",
+            "gen_log.get",
+            "logger.phase_durations",
+            "phase.replace",
+            "r.get",
+            "rag2_stats.get",
+            "result.get",
+            "result_data.get",
+            "run_single_test_case",
+            "style.font",
+            "table.rows",
+            "table.style",
+            "test_case.get",
+            "test_results.append",
+            "time.time",
+            "title.alignment"
+          ]
+        }
+      ],
+      "last_indexed": "2025-12-13T07:47:45.245932+00:00"
+    },
+    "main.py": {
+      "name": "main.py",
+      "path": "main.py",
+      "full_path": "C:\\Users\\Admin\\fssf-legal-ai test — копия\\main.py",
+      "file_hash": "ab32895592aba78e0b5354e3f5afe8c7",
+      "tokens_total": 6965,
+      "lines_total": 696,
+      "imports": {
+        "lines": "7-32",
+        "modules": [
+          "sys",
+          "os",
+          "asyncio",
+          "argparse",
+          "json",
+          "time",
+          "pathlib.Path",
+          "datetime.datetime",
+          "re",
+          "src.utils.encoding_detector.read_file_with_encoding",
+          "config.get_law_display_name",
+          "gc",
+          "platform",
+          "docx.Document",
+          "docx.shared.Pt",
+          "docx.shared.Inches",
+          "docx.enum.text.WD_ALIGN_PARAGRAPH",
+          "config.Config",
+          "config.LEGAL_CATEGORIES",
+          "api_manager.api_manager",
+          "src.classification.gigachat_classifier.GigaChatClassifier",
+          "src.core.sequential_searcher.SequentialArticleSearcher",
+          "src.rag.smart_rag_simple.SmartRAGSystem",
+          "src.core.law_navigator.LawNavigator"
+        ],
+        "tokens": 152
+      },
+      "globals": {
+        "lines": "35-36",
+        "names": [
+          "PROJECT_ROOT",
+          "CHAPTER_DESCRIPTIONS_FILE"
+        ],
+        "tokens": 23
+      },
+      "description": "Orchestration module for a legal AI consultation system that integrates classification, RAG, and document export with both CLI and Telegram bot interfaces.",
+      "classes": [
+        {
+          "name": "LegalAISystem",
+          "lines": "39-437",
+          "tokens": 4246,
+          "content_hash": "201b97b008a773ee9628593d753eb8e4",
+          "analyzed_by": "qwen",
+          "description": "Handles legal AI system operations including classification, search, and generation, integrates with GigaChatClassifier, SmartRAGSystem, SequentialArticleSearcher, and DocxExporter.",
+          "references": [
+            "Config",
+            "DocxExporter",
+            "DocxIntelligentParser",
+            "GigaChatClassifier",
+            "SequentialArticleSearcher",
+            "SmartRAGSystem",
+            "api_manager.deepseek_completion",
+            "asyncio.run",
+            "chapter_chunk.get",
+            "chapter_content.strip",
+            "chapter_pattern.match",
+            "chr",
+            "chroma_path.exists",
+            "content.split",
+            "current_chapter.append",
+            "datetime.now",
+            "descriptions_path.exists",
+            "f.name",
+            "gc.collect",
+            "json.dump",
+            "law_file.name",
+            "law_file.suffix",
+            "laws_dir.exists",
+            "laws_dir.glob",
+            "line.strip",
+            "outputs_dir.mkdir",
+            "parser.chunk_tree",
+            "parser.parse",
+            "platform.system",
+            "re.IGNORECASE",
+            "re.compile",
+            "read_file_with_encoding",
+            "response.strip",
+            "shutil.rmtree",
+            "sub_chunk.get",
+            "sub_chunks.append",
+            "sub_descriptions.append",
+            "temp_rag._check_law_files_changes",
+            "temp_rag.collection",
+            "time.sleep",
+            "traceback.print_exc"
+          ],
+          "methods": [
+            "__init__",
+            "_ensure_rag_initialized",
+            "_check_and_rebuild_index",
+            "process_question",
+            "index_laws_with_ai",
+            "_generate_chapter_description",
+            "_combine_sub_descriptions",
+            "export_to_docx"
+          ]
+        },
+        {
+          "name": "DocxExporter",
+          "lines": "440-492",
+          "tokens": 480,
+          "content_hash": "8b6a81b0a0df0242814fd969c0398396",
+          "analyzed_by": "qwen",
+          "description": "Handles exporting results to DOCX format, integrates with Python's os, asyncio, argparse, and json modules for file handling and data processing.",
+          "references": [
+            "Document",
+            "WD_ALIGN_PARAGRAPH.CENTER",
+            "article.get",
+            "datetime.now",
+            "doc.add_heading",
+            "doc.add_paragraph",
+            "doc.save",
+            "get_law_display_name",
+            "result.get",
+            "title.alignment"
+          ],
+          "methods": [
+            "__init__",
+            "create_report"
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "run_telegram_bot",
+          "lines": "495-557",
+          "tokens": 627,
+          "content_hash": "f5091a4970dc1b0b0dfa31307445bd23",
+          "analyzed_by": "qwen",
+          "description": "Запускает Telegram-бота, интегрирует с LegalAISystem для обработки юридических вопросов.",
+          "references": [
+            "Application.builder",
+            "CommandHandler",
+            "ContextTypes.DEFAULT_TYPE",
+            "LegalAISystem",
+            "MessageHandler",
+            "app.add_handler",
+            "app.run_polling",
+            "article.get",
+            "filters.COMMAND",
+            "filters.TEXT",
+            "get_law_display_name",
+            "os.getenv",
+            "result.get",
+            "system.process_question",
+            "update.message"
+          ]
+        },
+        {
+          "name": "main",
+          "lines": "560-692",
+          "tokens": 1368,
+          "content_hash": "0dc5fab4d0bc29480210618af8fa3da5",
+          "analyzed_by": "qwen",
+          "description": "Handles command-line arguments to run AI legal consultations, index laws, or operate as a Telegram bot, integrates with LegalAISystem for processing questions and exporting results.",
+          "references": [
+            "LegalAISystem",
+            "argparse.ArgumentParser",
+            "args.index",
+            "args.question",
+            "args.telegram",
+            "article.get",
+            "asyncio.run",
+            "get_law_display_name",
+            "input",
+            "parser.add_argument",
+            "parser.parse_args",
+            "question.lower",
+            "result.get",
+            "run_telegram_bot",
+            "system.export_to_docx",
+            "system.index_laws_with_ai",
+            "system.process_question"
+          ]
+        }
+      ],
+      "last_indexed": "2026-02-12T19:52:32.036401+00:00"
+    }
+  },
+  "stats": {
+    "qwen_calls": 0,
+    "qwen_successes": 0,
+    "qwen_failures": 0,
+    "deepseek_calls": 0,
+    "deepseek_successes": 0,
+    "deepseek_failures": 0,
+    "fallback_to_deepseek": 0,
+    "total_analysis_tokens": 0,
+    "files_indexed": 45,
+    "files_skipped": 45,
+    "files_updated": 0,
+    "files_added": 0,
+    "files_removed": 0,
+    "parse_recoveries": 0,
+    "indexing_duration_seconds": 0.068,
+    "errors": []
+  }
+}

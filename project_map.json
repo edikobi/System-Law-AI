@@ -1,0 +1,1163 @@
+{
+  "root": "C:\\Users\\Admin\\fssf-legal-ai test — копия",
+  "files": [
+    {
+      "path": "api_manager.py",
+      "type": "code/python",
+      "hash": "20dfedf83bde7b91889a99fd546b7264",
+      "tokens_total": 4306
+    },
+    {
+      "path": "check_docx_styles.py",
+      "type": "code/python",
+      "hash": "ab32e2e88987631f28c19a28c250ddbf",
+      "tokens_total": 1219
+    },
+    {
+      "path": "check_structure.py",
+      "type": "code/python",
+      "hash": "b745a081748ce6d55cd04633ea4b9a6b",
+      "tokens_total": 1074
+    },
+    {
+      "path": "compact_index.json",
+      "type": "data/json",
+      "hash": "5b7e67a8063329968e19221a521347e9",
+      "tokens_total": 2336
+    },
+    {
+      "path": "compact_index.md",
+      "type": "text/md",
+      "hash": "e21f6b0c798f2f6d4661a6a7f81f7d17",
+      "tokens_total": 1321
+    },
+    {
+      "path": "config.py",
+      "type": "code/python",
+      "hash": "ab7cf28b1c21ba5d6dcbb5b23c897fb5",
+      "tokens_total": 4770
+    },
+    {
+      "path": "debug_search_pipeline.py",
+      "type": "code/python",
+      "hash": "060438fb5c90200f754942e05471d8b8",
+      "tokens_total": 1735
+    },
+    {
+      "path": "fix_db.py",
+      "type": "code/python",
+      "hash": "5cf43d12bfe477f97a2e87c8bf924e01",
+      "tokens_total": 1342
+    },
+    {
+      "path": "generation_hints.json",
+      "type": "data/json",
+      "hash": "fa8f117fa5f472ec754bcc7082373273",
+      "tokens_total": 433
+    },
+    {
+      "path": "prepare_laws.py",
+      "type": "code/python",
+      "hash": "616874922b67954998a1a9b5c31e17f4",
+      "tokens_total": 1208
+    },
+    {
+      "path": "requirements.txt",
+      "type": "text/txt",
+      "hash": "052e73f4555894ed5321342363d656c1",
+      "tokens_total": 93
+    },
+    {
+      "path": "run_indexing_and_report.py",
+      "type": "code/python",
+      "hash": "977216f6e9f84488a628c1f84904b9ad",
+      "tokens_total": 2238
+    },
+    {
+      "path": "run_structure_analysis.py",
+      "type": "code/python",
+      "hash": "d9a804ac311e2f9da47ae6bcf0d7e725",
+      "tokens_total": 281
+    },
+    {
+      "path": "search_hints.json",
+      "type": "data/json",
+      "hash": "25eaf176561bdb875266ff80af479feb",
+      "tokens_total": 670
+    },
+    {
+      "path": "search_report_1764632232.docx",
+      "type": "other",
+      "hash": "cc98656e229e2288e4ed3fdac4f37059",
+      "tokens_total": 0
+    },
+    {
+      "path": "search_report_1764638030.docx",
+      "type": "other",
+      "hash": "cf388790293f7a5f57bac865bc99c73e",
+      "tokens_total": 0
+    },
+    {
+      "path": "test_deepseek_ping.py",
+      "type": "code/python",
+      "hash": "1835c33316f7ceabefe444c9a2e807ec",
+      "tokens_total": 562
+    },
+    {
+      "path": "test_parser_report.py",
+      "type": "code/python",
+      "hash": "acd5a529b1ddd9ebc8af534c550191b3",
+      "tokens_total": 1146
+    },
+    {
+      "path": "test_report_1764622608.docx",
+      "type": "other",
+      "hash": "6f43bdb8ef9ee727fdc6c15ccb60e7f9",
+      "tokens_total": 0
+    },
+    {
+      "path": "test_report_gen.py",
+      "type": "code/python",
+      "hash": "17a4aef26b2b0c67865ee352f398d737",
+      "tokens_total": 5395
+    },
+    {
+      "path": "test_sequential_search(bancp) — копия.py",
+      "type": "code/python",
+      "hash": "0e7d51950b683ee3fcad0938edb65e6f",
+      "tokens_total": 2930
+    },
+    {
+      "path": "test_sequential_search(bancp).py",
+      "type": "code/python",
+      "hash": "6f67ae7614fa5dd36ee07771bf87c723",
+      "tokens_total": 3021
+    },
+    {
+      "path": "test_sequential_search(dolev) (2).py",
+      "type": "code/python",
+      "hash": "5a708bf73bd49fd7df76a30f53d7dd2d",
+      "tokens_total": 3682
+    },
+    {
+      "path": "test_sequential_search(dolev).py",
+      "type": "code/python",
+      "hash": "467e83e9c1b0743ed7b0a8ddffa2414b",
+      "tokens_total": 2804
+    },
+    {
+      "path": "chroma_db\\chroma.sqlite3",
+      "type": "other",
+      "hash": "335a7af2b4dfe0b5c22da53ed671b457",
+      "tokens_total": 0
+    },
+    {
+      "path": "chroma_db\\9dcf2316-ddc4-4bd0-b59f-26c44a77c01c\\data_level0.bin",
+      "type": "other",
+      "hash": "fa5090d873aacc2f507cea1dad63429a",
+      "tokens_total": 0
+    },
+    {
+      "path": "chroma_db\\9dcf2316-ddc4-4bd0-b59f-26c44a77c01c\\header.bin",
+      "type": "other",
+      "hash": "8c1f1c1793a5e47467dfb9b0b25d69da",
+      "tokens_total": 0
+    },
+    {
+      "path": "chroma_db\\9dcf2316-ddc4-4bd0-b59f-26c44a77c01c\\length.bin",
+      "type": "other",
+      "hash": "0a986f8fa824eda46c7b1adf1d0d5c54",
+      "tokens_total": 0
+    },
+    {
+      "path": "chroma_db\\9dcf2316-ddc4-4bd0-b59f-26c44a77c01c\\link_lists.bin",
+      "type": "other",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0
+    },
+    {
+      "path": "h\\compact_index.json",
+      "type": "data/json",
+      "hash": "5b7e67a8063329968e19221a521347e9",
+      "tokens_total": 2336
+    },
+    {
+      "path": "h\\compact_index.md",
+      "type": "text/md",
+      "hash": "e21f6b0c798f2f6d4661a6a7f81f7d17",
+      "tokens_total": 1321
+    },
+    {
+      "path": "laws\\bankrotstvo.docx",
+      "type": "other",
+      "hash": "69323581d4036ac7dbc5962d5d035623",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\crime codex.docx",
+      "type": "other",
+      "hash": "08f1a312aff8d0098a2025a78b397e04",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\fssp.docx",
+      "type": "other",
+      "hash": "129371f4ef20f890e36be650a8d34371",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\gk_rf_1.docx",
+      "type": "other",
+      "hash": "08c8cc91a02794757421b3a46d9e02c3",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\gk_rf_2.docx",
+      "type": "other",
+      "hash": "deb19e2af24d53b2aebca0c1c260992f",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\gk_rf_3.docx",
+      "type": "other",
+      "hash": "e0d1b86021dcc0b1d8dbfd9982856956",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\gk_rf_4.docx",
+      "type": "other",
+      "hash": "6bead32cc35560f5c0a5645016202749",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\koap.docx",
+      "type": "other",
+      "hash": "eed51498657d348d11c6c56400cf8f01",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\pdd.docx",
+      "type": "other",
+      "hash": "40bf88adbd34955faedd13430c1fe904",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum bankruptcy subsidiary.docx",
+      "type": "other",
+      "hash": "954d9d42db8a07e499f98599f56bd5d6",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum of Enforcement proceedings.docx",
+      "type": "other",
+      "hash": "92ae9ace5e0528932e75111750df7032",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum of gibdd.docx",
+      "type": "other",
+      "hash": "a9abae95c382bae282720196491174cd",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum of Heritage.docx",
+      "type": "other",
+      "hash": "225ac41054b366eeba7dd10e59867953",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum of Labour.docx",
+      "type": "other",
+      "hash": "334db23d64bb3719a10294c381ade7c8",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum of property.docx",
+      "type": "other",
+      "hash": "c53a7c09e57e4a1437bce98a521098c3",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum of the Children.docx",
+      "type": "other",
+      "hash": "b7988eb8a701f5dc0935d118a6ed7dc0",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum on Consumer (general).docx",
+      "type": "other",
+      "hash": "f403e77c5d23543a2f7f76177a4f32f5",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum on Part 1 of gk 1.docx",
+      "type": "other",
+      "hash": "fe6e6f081cf4099e25b101ca34a8c530",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum on the gk 2.docx",
+      "type": "other",
+      "hash": "b49297f484f9e352da4d1b46ad6f3bc1",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\Plenum on the work of employees working for individual employers.docx",
+      "type": "other",
+      "hash": "cb0844e1b6b8e55708d51ca779ff1d1b",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\police.docx",
+      "type": "other",
+      "hash": "51a7a8f3b013c67ed2f8bfe808bac04d",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\postanov o neusto k dolevoi.docx",
+      "type": "other",
+      "hash": "4a749ac8325336f69416e07ab3ddb365",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\semeiniy_kodeks.docx",
+      "type": "other",
+      "hash": "d21b1a44ec66776b398275773d1b8029",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\trudovoy_kodeks.docx",
+      "type": "other",
+      "hash": "5cbc0430449912fa95852a5beb755a58",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\zakon dolevoi.docx",
+      "type": "other",
+      "hash": "eab3aebe6b6641f37d20d508b87eb86b",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\zhilishniy_kodeks.docx",
+      "type": "other",
+      "hash": "b472122095b47b35ec295956feb84b36",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\zpp.docx",
+      "type": "other",
+      "hash": "d4d3332016fe4707b63e19aa5d77001d",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\вщ.py",
+      "type": "code/python",
+      "hash": "5e9dc769d52ff198c9285aa241193cf4",
+      "tokens_total": 170
+    },
+    {
+      "path": "laws\\старые законы\\bankrotstvo.txt",
+      "type": "text/txt",
+      "hash": "dab15ba96b268f9a0ce9e11d58b11d2e",
+      "tokens_total": 977101
+    },
+    {
+      "path": "laws\\старые законы\\fssp.txt",
+      "type": "text/txt",
+      "hash": "b7c609ea42804374891931c0c302f471",
+      "tokens_total": 191926
+    },
+    {
+      "path": "laws\\старые законы\\gk_rf_1.txt",
+      "type": "text/txt",
+      "hash": "cc20414859dd6fc83c8625ef86075a7f",
+      "tokens_total": 336733
+    },
+    {
+      "path": "laws\\старые законы\\gk_rf_2.txt",
+      "type": "text/txt",
+      "hash": "2cc17810aa1702efc6e9166e28260da0",
+      "tokens_total": 260352
+    },
+    {
+      "path": "laws\\старые законы\\gk_rf_3.txt",
+      "type": "text/txt",
+      "hash": "f358b0877a60d7d8efc7d2bd96b8b245",
+      "tokens_total": 66950
+    },
+    {
+      "path": "laws\\старые законы\\gk_rf_4.txt",
+      "type": "text/txt",
+      "hash": "4917f274f73116ac422264c274c2c314",
+      "tokens_total": 256521
+    },
+    {
+      "path": "laws\\старые законы\\koap.txt",
+      "type": "text/txt",
+      "hash": "27532a985f5e67c69262a94ea829e578",
+      "tokens_total": 1196227
+    },
+    {
+      "path": "laws\\старые законы\\pdd.txt",
+      "type": "text/txt",
+      "hash": "1b8b25ee36092f8b2ce9177cd567645b",
+      "tokens_total": 119286
+    },
+    {
+      "path": "laws\\старые законы\\Plenum bankruptcy subsidiary.txt",
+      "type": "text/txt",
+      "hash": "7724a64bbba56cf8a94549ba075983c7",
+      "tokens_total": 38175
+    },
+    {
+      "path": "laws\\старые законы\\Plenum of Enforcement proceedings.txt",
+      "type": "text/txt",
+      "hash": "95e0315ee5099e5e20d6e731387976d4",
+      "tokens_total": 40408
+    },
+    {
+      "path": "laws\\старые законы\\Plenum of gibdd.txt",
+      "type": "text/txt",
+      "hash": "727d75ded77439d079364303b78f46c7",
+      "tokens_total": 37495
+    },
+    {
+      "path": "laws\\старые законы\\Plenum of Labour.txt",
+      "type": "text/txt",
+      "hash": "f231e1f1560e5c74bfa9337792320f8c",
+      "tokens_total": 34743
+    },
+    {
+      "path": "laws\\старые законы\\Plenum of property.txt",
+      "type": "text/txt",
+      "hash": "a4c963d4cfa293ca526fdeb6a7519a69",
+      "tokens_total": 18194
+    },
+    {
+      "path": "laws\\старые законы\\Plenum of the Children.txt",
+      "type": "text/txt",
+      "hash": "b481a9fed7430db1f66935f2510b8248",
+      "tokens_total": 16538
+    },
+    {
+      "path": "laws\\старые законы\\Plenum on Consumer (general).txt",
+      "type": "text/txt",
+      "hash": "5d461fb84b2d04940a9149088a751057",
+      "tokens_total": 22296
+    },
+    {
+      "path": "laws\\старые законы\\Plenum on Part 1 of gk 1.txt",
+      "type": "text/txt",
+      "hash": "12575bee6f5bd66c5ca3d44ca31d2629",
+      "tokens_total": 13216
+    },
+    {
+      "path": "laws\\старые законы\\Plenum on the gk 2.docx",
+      "type": "other",
+      "hash": "172fb1e630debe84ba1d8265ee2ec05a",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\старые законы\\Plenum on the gk 2.txt",
+      "type": "text/txt",
+      "hash": "520cdfac5c31200a0daf145f5cb5335b",
+      "tokens_total": 20932
+    },
+    {
+      "path": "laws\\старые законы\\Plenum on the work of employees working for individual employers.txt",
+      "type": "text/txt",
+      "hash": "1ec6fa82e77dce85b4c59ec9c1f40545",
+      "tokens_total": 17809
+    },
+    {
+      "path": "laws\\старые законы\\police.txt",
+      "type": "text/txt",
+      "hash": "03a73747cf9932f6130f2d09783ce0f3",
+      "tokens_total": 85765
+    },
+    {
+      "path": "laws\\старые законы\\postanov o neusto k dolevoi — копия.txt",
+      "type": "text/txt",
+      "hash": "ec7c2a26558e803e480af0f3073c42a3",
+      "tokens_total": 4054
+    },
+    {
+      "path": "laws\\старые законы\\postanov o neusto k dolevoi.docx",
+      "type": "other",
+      "hash": "8b22c0550aaf2d566c28906c41e7627e",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\старые законы\\postanov o neusto k dolevoi.txt",
+      "type": "text/txt",
+      "hash": "aa60b838a7ff3a255445227ca61b0335",
+      "tokens_total": 4358
+    },
+    {
+      "path": "laws\\старые законы\\semeiniy_kodeks.txt",
+      "type": "text/txt",
+      "hash": "1c1425a97f178671b683fdbda8e57d8e",
+      "tokens_total": 86850
+    },
+    {
+      "path": "laws\\старые законы\\trudovoy_kodeks — копия.docx",
+      "type": "other",
+      "hash": "701b3338e51a8ad804159fc8271f267b",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\старые законы\\trudovoy_kodeks.docx",
+      "type": "other",
+      "hash": "d02655493ffe9d7a1b97d5793a0857b2",
+      "tokens_total": 0
+    },
+    {
+      "path": "laws\\старые законы\\trudovoy_kodeks.txt",
+      "type": "text/txt",
+      "hash": "94e27e8d7e701600627c072c2dcf4728",
+      "tokens_total": 400609
+    },
+    {
+      "path": "laws\\старые законы\\zakon dolevoi.txt",
+      "type": "text/txt",
+      "hash": "e4f3d28e0e24176da6a070a1b3e4602c",
+      "tokens_total": 133503
+    },
+    {
+      "path": "laws\\старые законы\\zhilishniy_kodeks.txt",
+      "type": "text/txt",
+      "hash": "6c4cbd962933e9deb44fdd8800f8cc7e",
+      "tokens_total": 341691
+    },
+    {
+      "path": "laws\\старые законы\\zpp.txt",
+      "type": "text/txt",
+      "hash": "745b79c512769744042f4c6c887e814f",
+      "tokens_total": 57350
+    },
+    {
+      "path": "outputs\\20251108_020613_administrative.txt",
+      "type": "text/txt",
+      "hash": "d21a37e9bf9f42e9f5a3b4b3402ef44a",
+      "tokens_total": 1985
+    },
+    {
+      "path": "outputs\\20251108_020613_bankruptcy.txt",
+      "type": "text/txt",
+      "hash": "f7f9b48a87769cbdf9e0a6a4dd584665",
+      "tokens_total": 1737
+    },
+    {
+      "path": "outputs\\20251108_020613_civil_transactions.txt",
+      "type": "text/txt",
+      "hash": "145836f8d0a0aa31b601ebb39698f9fc",
+      "tokens_total": 1728
+    },
+    {
+      "path": "outputs\\20251108_020613_consumer.txt",
+      "type": "text/txt",
+      "hash": "ddfcffdf034978b36735818a916ab50a",
+      "tokens_total": 1771
+    },
+    {
+      "path": "outputs\\20251108_020613_enforcement_general.txt",
+      "type": "text/txt",
+      "hash": "644c6453ee1082a9b46d76e68fa35804",
+      "tokens_total": 1670
+    },
+    {
+      "path": "outputs\\20251108_020613_enforcement_pledge.txt",
+      "type": "text/txt",
+      "hash": "e48097d40462395230545af959fe6fa9",
+      "tokens_total": 1814
+    },
+    {
+      "path": "outputs\\20251108_020613_family_general.txt",
+      "type": "text/txt",
+      "hash": "3f007e6fbb4f1f05ddf7ad402833aead",
+      "tokens_total": 1769
+    },
+    {
+      "path": "outputs\\20251108_020613_family_property.txt",
+      "type": "text/txt",
+      "hash": "b2f2b10af6f897becd4e4480f6a788bf",
+      "tokens_total": 1874
+    },
+    {
+      "path": "outputs\\20251108_020613_gibdd.txt",
+      "type": "text/txt",
+      "hash": "bcfe999c9957c1efd62d03b520cee7b9",
+      "tokens_total": 1746
+    },
+    {
+      "path": "outputs\\20251108_020613_labor_disputes.txt",
+      "type": "text/txt",
+      "hash": "1128dc0dbea920a0c6565130e2b1e7af",
+      "tokens_total": 1759
+    },
+    {
+      "path": "outputs\\20251108_020613_labor_general.txt",
+      "type": "text/txt",
+      "hash": "b24fc6fdccf732c85469e486134d3b81",
+      "tokens_total": 1765
+    },
+    {
+      "path": "outputs\\20251108_020613_labor_safety.txt",
+      "type": "text/txt",
+      "hash": "7995387f4f77bcb55f19902d921e6960",
+      "tokens_total": 1757
+    },
+    {
+      "path": "outputs\\20251108_020613_labor_termination.txt",
+      "type": "text/txt",
+      "hash": "2fa5fd5b90beaba61c8f80d1821bed42",
+      "tokens_total": 1802
+    },
+    {
+      "path": "outputs\\20251108_020613_property.txt",
+      "type": "text/txt",
+      "hash": "2c89a2350b45ddbadf36645619070aba",
+      "tokens_total": 1779
+    },
+    {
+      "path": "outputs\\20251108_021420_administrative.txt",
+      "type": "text/txt",
+      "hash": "9c431a1a8ee380071dd075d957a56d70",
+      "tokens_total": 3716
+    },
+    {
+      "path": "outputs\\20251108_021420_bankruptcy.txt",
+      "type": "text/txt",
+      "hash": "e33d34aa59328b598f352987962ac4dc",
+      "tokens_total": 3802
+    },
+    {
+      "path": "outputs\\20251108_021420_civil_transactions.txt",
+      "type": "text/txt",
+      "hash": "7c77250d2bb8f46480f49b1e377710cc",
+      "tokens_total": 4086
+    },
+    {
+      "path": "outputs\\20251108_021420_consumer.txt",
+      "type": "text/txt",
+      "hash": "47fab363b24a2f9d371aa8e5f0715c2e",
+      "tokens_total": 3732
+    },
+    {
+      "path": "outputs\\20251108_021420_enforcement_general.txt",
+      "type": "text/txt",
+      "hash": "8c348ef847475bc253f86d15507c4cc3",
+      "tokens_total": 3934
+    },
+    {
+      "path": "outputs\\20251108_021420_enforcement_pledge.txt",
+      "type": "text/txt",
+      "hash": "500e86e75ea820cd725ccaf6d0561bbc",
+      "tokens_total": 3938
+    },
+    {
+      "path": "outputs\\20251108_021420_equity_construction.txt",
+      "type": "text/txt",
+      "hash": "40d284b6920796093d674e78e223aa3f",
+      "tokens_total": 3646
+    },
+    {
+      "path": "outputs\\20251108_021420_family_general.txt",
+      "type": "text/txt",
+      "hash": "1aff093c36e0fca925a4712b0d2d8ed6",
+      "tokens_total": 4053
+    },
+    {
+      "path": "outputs\\20251108_021420_family_property.txt",
+      "type": "text/txt",
+      "hash": "f33c5b4726f6070607572ee94fb459b0",
+      "tokens_total": 4380
+    },
+    {
+      "path": "outputs\\20251108_021420_gibdd.txt",
+      "type": "text/txt",
+      "hash": "58b3d49fdfd7e60f789d76038b95d80c",
+      "tokens_total": 4400
+    },
+    {
+      "path": "outputs\\20251108_021420_labor_disputes.txt",
+      "type": "text/txt",
+      "hash": "970abbabc851d6d4eb472dd7681661aa",
+      "tokens_total": 3995
+    },
+    {
+      "path": "outputs\\20251108_021420_labor_general.txt",
+      "type": "text/txt",
+      "hash": "d10e2482f3ae8e3045785c3f7dd5567b",
+      "tokens_total": 3675
+    },
+    {
+      "path": "outputs\\20251108_021420_labor_safety.txt",
+      "type": "text/txt",
+      "hash": "55f4477a38e0dbf387102ad07457470f",
+      "tokens_total": 3881
+    },
+    {
+      "path": "outputs\\20251108_021420_labor_termination.txt",
+      "type": "text/txt",
+      "hash": "51fd36387b17510ec5df58d53fe74f11",
+      "tokens_total": 3943
+    },
+    {
+      "path": "outputs\\20251108_021420_property.txt",
+      "type": "text/txt",
+      "hash": "10ec2555c3435316618255e9ac476806",
+      "tokens_total": 3993
+    },
+    {
+      "path": "outputs\\20251108_021420_unknown.txt",
+      "type": "text/txt",
+      "hash": "13d2fe6218e84faa13e59d088a74572f",
+      "tokens_total": 3709
+    },
+    {
+      "path": "processed_laws\\bankrotstvo.docx.json",
+      "type": "data/json",
+      "hash": "d4a06d5aefcf791fb09da8f72af16b1a",
+      "tokens_total": 1920117
+    },
+    {
+      "path": "processed_laws\\crime codex.docx.json",
+      "type": "data/json",
+      "hash": "7d43acec7efb1c2d4447003b51349a5f",
+      "tokens_total": 866455
+    },
+    {
+      "path": "processed_laws\\fssp.docx.json",
+      "type": "data/json",
+      "hash": "a38c768c1ca51f257ac6636372e534dc",
+      "tokens_total": 395248
+    },
+    {
+      "path": "processed_laws\\gk_rf_1.docx.json",
+      "type": "data/json",
+      "hash": "b42071e08a6f993694bb3272680d9a53",
+      "tokens_total": 620708
+    },
+    {
+      "path": "processed_laws\\gk_rf_2.docx.json",
+      "type": "data/json",
+      "hash": "94095f522175a0bd58a1133ddc18f55d",
+      "tokens_total": 475225
+    },
+    {
+      "path": "processed_laws\\gk_rf_3.docx.json",
+      "type": "data/json",
+      "hash": "5d7cd47c35758af249470c4b3f4864d7",
+      "tokens_total": 122704
+    },
+    {
+      "path": "processed_laws\\gk_rf_4.docx.json",
+      "type": "data/json",
+      "hash": "3a9b2003864e5b40f10b2a705f98cb07",
+      "tokens_total": 481269
+    },
+    {
+      "path": "processed_laws\\koap.docx.json",
+      "type": "data/json",
+      "hash": "2c42f2c0d60de0390ac78fbd4c1b5dd8",
+      "tokens_total": 2248260
+    },
+    {
+      "path": "processed_laws\\pdd.docx.json",
+      "type": "data/json",
+      "hash": "9bd28acdd8df78c937de951c60db4afe",
+      "tokens_total": 227063
+    },
+    {
+      "path": "processed_laws\\Plenum bankruptcy subsidiary.docx.json",
+      "type": "data/json",
+      "hash": "2744fabe2194f23a3326db2079fc68c4",
+      "tokens_total": 39203
+    },
+    {
+      "path": "processed_laws\\Plenum of Enforcement proceedings.docx.json",
+      "type": "data/json",
+      "hash": "fcbf9fdcccab0d26c11bdb43faf69c2a",
+      "tokens_total": 41594
+    },
+    {
+      "path": "processed_laws\\Plenum of gibdd.docx.json",
+      "type": "data/json",
+      "hash": "791dc70317881240b8d6e50197c03807",
+      "tokens_total": 37780
+    },
+    {
+      "path": "processed_laws\\Plenum of Labour.docx.json",
+      "type": "data/json",
+      "hash": "bc1ab9f59fb8bf1984ab2c8ed6d662f8",
+      "tokens_total": 35694
+    },
+    {
+      "path": "processed_laws\\Plenum of property.docx.json",
+      "type": "data/json",
+      "hash": "72d91ef3c3fbf032040e3930e4a3b1b7",
+      "tokens_total": 18283
+    },
+    {
+      "path": "processed_laws\\Plenum of the Children.docx.json",
+      "type": "data/json",
+      "hash": "ca992271c597638e22a5e01ddf1a05d1",
+      "tokens_total": 16536
+    },
+    {
+      "path": "processed_laws\\Plenum on Consumer (general).docx.json",
+      "type": "data/json",
+      "hash": "88e253e295338bc01fc44d938c5503d9",
+      "tokens_total": 22437
+    },
+    {
+      "path": "processed_laws\\Plenum on Part 1 of gk 1.docx.json",
+      "type": "data/json",
+      "hash": "9f635db25056e6d929c761b6663bb997",
+      "tokens_total": 12434
+    },
+    {
+      "path": "processed_laws\\Plenum on the gk 2.txt.json",
+      "type": "data/json",
+      "hash": "1d15eeb475bc3f01505bb289c286264e",
+      "tokens_total": 21385
+    },
+    {
+      "path": "processed_laws\\Plenum on the work of employees working for individual employers.docx.json",
+      "type": "data/json",
+      "hash": "e82061c795fdd63adbf66008df17eb87",
+      "tokens_total": 18031
+    },
+    {
+      "path": "processed_laws\\police.docx.json",
+      "type": "data/json",
+      "hash": "813441482ff178c9188df082a586438b",
+      "tokens_total": 173009
+    },
+    {
+      "path": "processed_laws\\postanov o neusto k dolevoi.txt.json",
+      "type": "data/json",
+      "hash": "4392a65e5bb5d4cae5ff47951e6e0122",
+      "tokens_total": 4230
+    },
+    {
+      "path": "processed_laws\\semeiniy_kodeks.docx.json",
+      "type": "data/json",
+      "hash": "ca7672e5f5f3e666f5f94b00c82df561",
+      "tokens_total": 163938
+    },
+    {
+      "path": "processed_laws\\trudovoy_kodeks.docx.json",
+      "type": "data/json",
+      "hash": "9ccf46b45369b2cec56f34f095aff734",
+      "tokens_total": 460941
+    },
+    {
+      "path": "processed_laws\\zakon dolevoi.docx.json",
+      "type": "data/json",
+      "hash": "2b10f96bae0d8c8beee96d9bc020d15f",
+      "tokens_total": 136334
+    },
+    {
+      "path": "processed_laws\\zhilishniy_kodeks.docx.json",
+      "type": "data/json",
+      "hash": "425bf32a36f5d00ef31af9ec70480908",
+      "tokens_total": 650302
+    },
+    {
+      "path": "processed_laws\\zpp.docx.json",
+      "type": "data/json",
+      "hash": "093eebc69b55a4a411331ad0e39b6579",
+      "tokens_total": 114116
+    },
+    {
+      "path": "search_results\\articles_1765490037.json",
+      "type": "data/json",
+      "hash": "6227269987abee0fcc64cb7c3c41f81f",
+      "tokens_total": 858
+    },
+    {
+      "path": "search_results\\articles_1765490190.json",
+      "type": "data/json",
+      "hash": "a1b792af39819d03dda4968a4cb0d09c",
+      "tokens_total": 21335
+    },
+    {
+      "path": "search_results\\articles_1765492743.json",
+      "type": "data/json",
+      "hash": "125beaa74502ad3b83a88216c7c14e45",
+      "tokens_total": 13604
+    },
+    {
+      "path": "search_results\\articles_1765495186.json",
+      "type": "data/json",
+      "hash": "f8be929a88cf9fd0efa251f2d53d6e93",
+      "tokens_total": 14127
+    },
+    {
+      "path": "search_results\\articles_1765495859.json",
+      "type": "data/json",
+      "hash": "31872fc3c41a2733fca6d9e475cd0554",
+      "tokens_total": 17221
+    },
+    {
+      "path": "search_results\\articles_1765496360.json",
+      "type": "data/json",
+      "hash": "5a99dcd6f633d58e39bcc9a7cb14e842",
+      "tokens_total": 44127
+    },
+    {
+      "path": "search_results\\articles_1765501809.json",
+      "type": "data/json",
+      "hash": "5c1cf320f6e16797f0e357bf60ee5dc9",
+      "tokens_total": 13701
+    },
+    {
+      "path": "search_results\\search_log_1765490190.json",
+      "type": "data/json",
+      "hash": "b92f2c7b0ab26c4ed8a12e65aa5e4ad1",
+      "tokens_total": 103136
+    },
+    {
+      "path": "search_results\\search_log_1765492743.json",
+      "type": "data/json",
+      "hash": "ea7a45906e10b6c8b6de7496df418c99",
+      "tokens_total": 86138
+    },
+    {
+      "path": "search_results\\search_log_1765495186.json",
+      "type": "data/json",
+      "hash": "940d98aee588a3880433fc3af16587d9",
+      "tokens_total": 88318
+    },
+    {
+      "path": "search_results\\search_log_1765495859.json",
+      "type": "data/json",
+      "hash": "839cb3e1323d5eb02586e9832ada72fa",
+      "tokens_total": 93287
+    },
+    {
+      "path": "search_results\\search_log_1765496360.json",
+      "type": "data/json",
+      "hash": "4f10691a5ce1ee1f2e5ab523298104c0",
+      "tokens_total": 177112
+    },
+    {
+      "path": "search_results\\search_log_1765501809.json",
+      "type": "data/json",
+      "hash": "5fdf9f2de149f3085ec89e4db3a0101d",
+      "tokens_total": 86241
+    },
+    {
+      "path": "semantic_cache\\chapters_index.pkl",
+      "type": "other",
+      "hash": "1dbaec0ed98db856eb35b580ce1e5bbf",
+      "tokens_total": 0
+    },
+    {
+      "path": "semantic_cache\\chapter_embeddings.pkl",
+      "type": "other",
+      "hash": "2d43211353ab12f18abd15de3c5d4d83",
+      "tokens_total": 0
+    },
+    {
+      "path": "src\\__init__.py",
+      "type": "code/python",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0
+    },
+    {
+      "path": "src\\classification\\deepseek_classifier.py",
+      "type": "code/python",
+      "hash": "af92ad9f600b439f2a352516de56d867",
+      "tokens_total": 722
+    },
+    {
+      "path": "src\\classification\\gigachat_classifier.py",
+      "type": "code/python",
+      "hash": "3ddcbcf92a9a393100451f70f74d27c1",
+      "tokens_total": 1431
+    },
+    {
+      "path": "src\\classification\\mistral_classifier.py",
+      "type": "code/python",
+      "hash": "0cf542a65c9f5748075350a0a353eaad",
+      "tokens_total": 736
+    },
+    {
+      "path": "src\\classification\\__init__.py",
+      "type": "code/python",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0
+    },
+    {
+      "path": "src\\core\\answer_generator.py",
+      "type": "code/python",
+      "hash": "9942efbdb4877b2af2d13a216c90144e",
+      "tokens_total": 6671
+    },
+    {
+      "path": "src\\core\\docx_intelligent_parser.py",
+      "type": "code/python",
+      "hash": "fe28a0708dfa5929ce8a2a4cbc746c72",
+      "tokens_total": 3427
+    },
+    {
+      "path": "src\\core\\hybrid_navigator.py",
+      "type": "code/python",
+      "hash": "ff2d264321977fea55735e3e62b01a7c",
+      "tokens_total": 4904
+    },
+    {
+      "path": "src\\core\\law_navigator.py",
+      "type": "code/python",
+      "hash": "fae34f0d4391dca9b436f3a8638c6b50",
+      "tokens_total": 7595
+    },
+    {
+      "path": "src\\core\\LegalBotCore.py",
+      "type": "code/python",
+      "hash": "7396a2af62ee6a52a5d4113bd672a7b8",
+      "tokens_total": 6336
+    },
+    {
+      "path": "src\\core\\legal_bot.py",
+      "type": "code/python",
+      "hash": "f168efd4c3d87423d941fc1e490fd00b",
+      "tokens_total": 481
+    },
+    {
+      "path": "src\\core\\legal_bot_simple.py",
+      "type": "code/python",
+      "hash": "358d7aeb3ce7820c24da24bbca180ecc",
+      "tokens_total": 1616
+    },
+    {
+      "path": "src\\core\\sequential_searcher.py",
+      "type": "code/python",
+      "hash": "9a78d80fe1b0021c2eb55a2605fae14f",
+      "tokens_total": 30783
+    },
+    {
+      "path": "src\\core\\simple_law_parser.py",
+      "type": "code/python",
+      "hash": "e88060cfacb4079e882e04765e9ba315",
+      "tokens_total": 2752
+    },
+    {
+      "path": "src\\core\\__init__.py",
+      "type": "code/python",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0
+    },
+    {
+      "path": "src\\core\\k\\answer_generator (соннет пробует_ кодить).py",
+      "type": "code/python",
+      "hash": "aee17b5d825058e7fab49f2c9b4b7ad9",
+      "tokens_total": 6577
+    },
+    {
+      "path": "src\\core\\k\\sequential_searcher.py",
+      "type": "code/python",
+      "hash": "4a91cfea4634ca0c871b66a3dfd18e15",
+      "tokens_total": 30791
+    },
+    {
+      "path": "src\\rag\\local_semantic_rag.py",
+      "type": "code/python",
+      "hash": "3bf9bde9f23a6ef634c64a9b8da5eff9",
+      "tokens_total": 3051
+    },
+    {
+      "path": "src\\rag\\smart_rag_fixed.py",
+      "type": "code/python",
+      "hash": "52703a67fbd121483aaebb3e53a573d3",
+      "tokens_total": 1964
+    },
+    {
+      "path": "src\\rag\\smart_rag_simple.py",
+      "type": "code/python",
+      "hash": "4dd07d1932a3eca3730d4509b3b0eeec",
+      "tokens_total": 10477
+    },
+    {
+      "path": "src\\rag\\__init__.py",
+      "type": "code/python",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0
+    },
+    {
+      "path": "src\\tools\\structure_analyzer.py",
+      "type": "code/python",
+      "hash": "298a8c0d3b23744fdac288e8515317fa",
+      "tokens_total": 3308
+    },
+    {
+      "path": "src\\utils\\encoding_detector.py",
+      "type": "code/python",
+      "hash": "88461e86de31c899fedf62594843a1d0",
+      "tokens_total": 485
+    },
+    {
+      "path": "src\\utils\\law_utils.py",
+      "type": "code/python",
+      "hash": "83e1329be8125483e122ce2f97582720",
+      "tokens_total": 280
+    },
+    {
+      "path": "src\\utils\\__init__.py",
+      "type": "code/python",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "tokens_total": 0
+    },
+    {
+      "path": "structure_analysis\\bankrotstvo_structure_20251123_004847.txt",
+      "type": "text/txt",
+      "hash": "4f2ac5975c7fd763fac623ff4608d126",
+      "tokens_total": 6065
+    },
+    {
+      "path": "structure_analysis\\bankrotstvo_structure_20251123_010453.txt",
+      "type": "text/txt",
+      "hash": "de6b3e5ccc685f90ea42ebd886d075c7",
+      "tokens_total": 7832
+    },
+    {
+      "path": "structure_analysis\\document_structures_20251123_004846.docx",
+      "type": "other",
+      "hash": "5a64ac12a3028b713065f722d0df9ad0",
+      "tokens_total": 0
+    },
+    {
+      "path": "structure_analysis\\document_structures_20251123_004846.txt",
+      "type": "text/txt",
+      "hash": "021cffbe5168a7234e39d3ffd481c14d",
+      "tokens_total": 49097
+    },
+    {
+      "path": "structure_analysis\\document_structures_20251123_010453.docx",
+      "type": "other",
+      "hash": "5f36369093736211496ef3cebe4e66c0",
+      "tokens_total": 0
+    },
+    {
+      "path": "structure_analysis\\document_structures_20251123_010453.txt",
+      "type": "text/txt",
+      "hash": "1bf555ecc66a2aa1c827032ceb2b308e",
+      "tokens_total": 50748
+    },
+    {
+      "path": "structure_analysis\\document_structures_20251126_204915.docx",
+      "type": "other",
+      "hash": "2c9902be3a67d63f9579dfe90738a0ae",
+      "tokens_total": 0
+    },
+    {
+      "path": "structure_analysis\\document_structures_20251126_204915.txt",
+      "type": "text/txt",
+      "hash": "efd1cc509fd0a62484bca0199f84f67b",
+      "tokens_total": 603
+    }
+  ]
+}
